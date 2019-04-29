@@ -1,6 +1,6 @@
 # Summary
 
-The corpus **UD_French-FQB** is an automatic conversion of the [French QuestionBank v1](http://alpage.inria.fr/Treebanks/FQB/).
+The corpus **UD_French-FQB** is an automatic conversion of the [French QuestionBank v1](http://alpage.inria.fr/Treebanks/FQB/), a corpus entirely made of questions
 
 # Introduction
 
@@ -15,11 +15,6 @@ Due to the UD constraints on the test set size (at least 10k tokens) , we recomm
 In our own experiments, we either used the **UD_French-FQB** in a 10-folds cross-validation scenario or in a train/dev/test scenario whith the  i_th sentence in train, i_th+1 in dev, i_th+2 in test.
 
 
-# Acknowledgments
-* contributors: Marie Candito, Bruno Guillaume, Djamé Seddah
-* contact: Djamé Seddah: djame.seddah@paris-sorbonne.fr, Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
-* UD maintainer: Bruno Guillaume, bruno.guillaume@loria.fr
-
 # Statistics
 * sentences: 2289
 * words: 23236
@@ -33,6 +28,11 @@ In our own experiments, we either used the **UD_French-FQB** in a 10-folds cross
 Note that the TREC domain questions are a translation of the corresponding questions in the English Question Bank (Judge et al, 2006). 
 
 
+
+# Acknowledgments
+* contributors: Marie Candito, Bruno Guillaume, Djamé Seddah
+* contact: Djamé Seddah: djame.seddah@paris-sorbonne.fr, Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
+* UD maintainer: Bruno Guillaume, bruno.guillaume@loria.fr
 
 
 ## References
