@@ -25,7 +25,7 @@ In our own experiments, we either used the **UD_French-FQB** in a 10-folds cross
 * French Government/NGOs FAQs: 196 sents.
 * CLEF 03: 200 (sents.)
 
-Note that the TREC domain questions are a translation of the corresponding questions in the English Question Bank (Judge et al, 2006). 
+Note that the TREC domain questions are a translation of the corresponding questions in the English Question Bank (Judge et al, 2006).
 
 
 
@@ -42,6 +42,12 @@ Note that the TREC domain questions are a translation of the corresponding quest
 * Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set, Christian Rétoré, 1786300966. ⟨hal-01814386⟩
 
 * John Judge, Aoife Cahill,  and Joseph van Genabith,  (2006). [QuestionBank: Creating a Corpus of Parse-Annotated Questions](https://aclweb.org/anthology/papers/P/P06/P06-1063/). In Proceedings of the 21st International Conference on Computational Linguistics and 44th Anual Meeting of the Association for Computational Linguistics (COLING-ACL 2006), pages 497–504, Sydney, Australia.
+
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
 
 
 
