@@ -211,7 +211,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	logement	logement	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 13	augmenter	augmenter	VERB	_	VerbForm=Inf	10	xcomp	_	_
 14	aussi	aussi	ADV	_	_	13	advmod	_	_
@@ -634,7 +634,7 @@
 5	Mark	Mark	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 6	Kauffman	Kauffman	PROPN	_	_	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	pour	pour	ADP	_	_	13	case	_	_
@@ -675,7 +675,7 @@
 6	Shakespeare	Shakespeare	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	3	punct	_	_
 8	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Henry	Henry	PROPN	_	Gender=Masc|Number=Sing	8	obj	_	_
@@ -691,7 +691,7 @@
 4	Marty	Marty	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 5	McKewon	McKewon	PROPN	_	_	4	flat:name	_	_
 6	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -715,7 +715,7 @@
 2	Richard	Richard	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Zwetchkenbaum	Zwetchkenbaum	PROPN	_	_	2	flat:name	_	_
 4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -727,7 +727,7 @@
 4	pays	pays	NOUN	_	Gender=Masc	2	obl:arg	_	_
 5	Greenpeace	Greenpeace	PROPN	_	_	6	nsubj	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	agences	agence	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
@@ -742,7 +742,7 @@
 5	Presley	Presley	PROPN	_	_	4	flat:name	_	_
 6	Gilmore	Gilmore	PROPN	_	_	10	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	chanté	chanter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -753,7 +753,7 @@
 2	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
 3	pays	pays	NOUN	_	Gender=Masc	4	obl:mod	_	_
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	4	nsubj	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	concours	concours	NOUN	_	Gender=Masc	4	obj	_	_
@@ -794,7 +794,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	Californie	Californie	PROPN	_	Gender=Fem|Number=Sing	14	obl:mod	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-12	-t	t	PART	_	_	13	expl	_	SpaceAfter=No
+12	-t	t	PART	_	_	13	dep	_	SpaceAfter=No
 13	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	14	expl	_	_
 14	consacré	consacrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
@@ -816,7 +816,7 @@
 4	Gunnar	Gunnar	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Myrdal	Myrdal	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -860,7 +860,7 @@
 2	de	de	ADP	_	_	3	case	_	_
 3	condoms	condom	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 7	vendu	vendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
@@ -929,7 +929,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	advmod	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	mégaoctets	mégaoctet	NOUN	_	_	3	obj	_	_
@@ -956,7 +956,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	Berlin	Berlin	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -968,7 +968,7 @@
 2	substance	substance	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 3	radioactive	radioactif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 7	injectée	injecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	case	_	_
@@ -1075,7 +1075,7 @@
 11	E.	E.	PROPN	_	_	10	flat:name	_	_
 12	Marcos	Marcos	PROPN	_	Gender=Masc|Number=Sing	10	flat:name	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
-14	-t	t	PART	_	_	15	expl	_	SpaceAfter=No
+14	-t	t	PART	_	_	15	dep	_	SpaceAfter=No
 15	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	17	expl	_	_
 16	été	être	AUX	_	Tense=Past|VerbForm=Part	17	aux:pass	_	_
 17	renversé	renverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -1102,7 +1102,7 @@
 5	piraterie	piraterie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	routière	routier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-on	il	PRON	_	Number=Sing|Person=3	10	nsubj	_	_
 10	recensé	recenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	à	à	ADP	_	_	12	case	_	_
@@ -1120,7 +1120,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Afghanistan	Afghanistan	PROPN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	envahi	envahir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -1145,7 +1145,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Cochons	Cochons	PROPN	_	_	8	nmod	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
-13	-t	t	PART	_	_	14	expl	_	SpaceAfter=No
+13	-t	t	PART	_	_	14	dep	_	SpaceAfter=No
 14	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	15	expl	_	_
 15	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
@@ -1234,7 +1234,7 @@
 8	Rodham	Rodham	PROPN	_	_	7	flat:name	_	_
 9	Clinton	Clinton	PROPN	_	Gender=Masc|Number=Sing	7	flat:name	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	13	expl	_	_
 13	légué	léguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	son	son	DET	_	Number=Sing|Poss=Yes	15	det	_	_
@@ -1259,7 +1259,7 @@
 2	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
 3	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 7	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -1332,7 +1332,7 @@
 2	Raymond	Raymond	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Pettibon	Pettibon	PROPN	_	_	2	flat:name	_	_
 4	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -1342,7 +1342,7 @@
 2	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	3	det	_	_
 3	date	date	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 7	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -1421,7 +1421,7 @@
 8	John	John	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
 9	Potter	Potter	PROPN	_	_	8	flat:name	_	_
 10	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 13	?	?	PUNCT	_	_	10	punct	_	_
 
@@ -1431,7 +1431,7 @@
 2	autre	autre	ADJ	_	Number=Sing	3	amod	_	_
 3	nom	nom	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 4	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	4	nsubj	_	_
 7	à	à	ADP	_	_	10	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -1512,7 +1512,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Golfe	golfe	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-10	-t	t	PART	_	_	11	expl	_	SpaceAfter=No
+10	-t	t	PART	_	_	11	dep	_	SpaceAfter=No
 11	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	12	expl	_	_
 12	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
@@ -1541,7 +1541,7 @@
 6	Charlotta	Charlotta	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
 7	Bass	Bass	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	11	expl	_	_
 11	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	?	?	PUNCT	_	_	11	punct	_	_
@@ -1714,7 +1714,7 @@
 2	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	3	det	_	_
 3	époque	époque	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 7	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -1732,7 +1732,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	classe	classe	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-on	il	PRON	_	Number=Sing|Person=3	9	nsubj	_	_
 9	construites	construire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	en	en	ADP	_	_	11	case	_	_
@@ -1751,7 +1751,7 @@
 2	Hernando	Hernando	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Cortès	Cortès	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -1784,7 +1784,7 @@
 9	quais	quai	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	9	punct	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-12	-t	t	PART	_	_	13	expl	_	SpaceAfter=No
+12	-t	t	PART	_	_	13	dep	_	SpaceAfter=No
 13	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	14	expl	_	_
 14	remportés	remporter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 15	?	?	PUNCT	_	_	14	punct	_	_
@@ -1863,7 +1863,7 @@
 3	parti	parti	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 4	Noriega	Noriega	PROPN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	appartenu	appartenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -1887,7 +1887,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	Mulberry	Mulberry	PROPN	_	_	3	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	stipulé	stipuler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2005,7 +2005,7 @@
 6	Chuch	Chuch	PROPN	_	_	3	appos	_	_
 7	Yeager	Yeager	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 11	brisé	briser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -2022,7 +2022,7 @@
 2	Nnenna	Nnenna	PROPN	_	_	4	nsubj	_	_
 3	Freelon	Freelon	PROPN	_	_	2	flat:name	_	_
 4	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	4	expl	_	_
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -2032,7 +2032,7 @@
 2	qui	qui	PRON	_	PronType=Int	7	obl:arg	_	_
 3	Shostakovitch	Shostakovitch	PROPN	_	_	7	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	dédié	dédier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	son	son	DET	_	Number=Sing|Poss=Yes	9	det	_	_
@@ -2142,7 +2142,7 @@
 4	Avery	Avery	PROPN	_	Number=Sing	10	nsubj:pass	_	_
 5	Clayton	Clayton	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	embauché	embaucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2169,7 +2169,7 @@
 3	Peter	Peter	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	Tortorici	Tortorici	PROPN	_	_	3	flat:name	_	_
 5	préside	présider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -2206,7 +2206,7 @@
 3	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 4	Innsbruck	Innsbruck	PROPN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 8	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -2260,7 +2260,7 @@
 3	Hope	Hope	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	Holcomb	Holcomb	PROPN	_	_	3	flat:name	_	_
 5	dirige	diriger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -2314,7 +2314,7 @@
 4	Sid	Sid	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 5	Gregory	Gregory	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -2326,7 +2326,7 @@
 4	Robert	Robert	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Bresson	Bresson	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -2396,7 +2396,7 @@
 4	Tom	Tom	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 5	Kalinske	Kalinske	PROPN	_	_	4	flat:name	_	_
 6	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -2424,7 +2424,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	obj	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
@@ -2440,7 +2440,7 @@
 2	Miguel	Miguel	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Indurain	Indurain	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	?	?	PUNCT	_	_	7	punct	_	_
@@ -2547,7 +2547,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	obj	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
@@ -2563,7 +2563,7 @@
 4	Genghis	Genghis	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Khan	Khan	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -2649,7 +2649,7 @@
 4	Julie	Julie	PROPN	_	Gender=Fem|Number=Sing	3	appos	_	_
 5	Kelly	Kelly	PROPN	_	Number=Sing	4	flat:name	_	_
 6	enseigne	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -2715,7 +2715,7 @@
 3	O'	O'	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	Sullivan	Sullivan	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	kidnappée	kidnapper	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -2956,7 +2956,7 @@
 4	J.	J.	PROPN	_	_	3	flat:name	_	_
 5	Davis	Davis	PROPN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 6	dirige	diriger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -3031,7 +3031,7 @@
 2	Ayrton	Ayrton	PROPN	_	_	7	nsubj	_	_
 3	Senna	Senna	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -3073,7 +3073,7 @@
 3	Giovanni	Giovanni	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Spadolini	Spadolini	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	dirigé	diriger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -3098,7 +3098,7 @@
 6	Kilimanjaro	Kilimanjaro	PROPN	_	_	5	nmod	_	_
 7	se	le/lui	PRON	_	Person=3|Reflex=Yes	8	expl:comp	_	_
 8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 11	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -3154,7 +3154,7 @@
 3	Tchétchènes	tchétchène	NOUN	_	Number=Plur	1	obl:arg	_	_
 4	Staline	Staline	PROPN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	déportés	déporter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -3166,7 +3166,7 @@
 3	Max	Max	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Bill	Bill	PROPN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	fréquentée	fréquenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -3178,7 +3178,7 @@
 3	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 4	Greenpeace	Greenpeace	PROPN	_	_	9	nsubj:pass	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3233,7 +3233,7 @@
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	indépendance	indépendance	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	12	expl	_	_
 11	été	être	AUX	_	Tense=Past|VerbForm=Part	12	aux:pass	_	_
 12	signée	signer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -3283,7 +3283,7 @@
 4	Pike	Pike	PROPN	_	_	9	nsubj	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	4	punct	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	fermé	fermer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -3327,7 +3327,7 @@
 3	Deng	Deng	PROPN	_	_	5	nsubj	_	_
 4	Xiaoping	Xiaoping	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -3358,7 +3358,7 @@
 6	Tom	Tom	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	Glavine	Glavine	PROPN	_	_	6	flat:name	_	_
 8	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 11	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -3440,7 +3440,7 @@
 # text = Combien a-t-on fait de prisonniers lord de la prise du Fort Niagara en 1813 ?
 1	Combien	combien	ADV	_	PronType=Int	5	obj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	5	nsubj	_	_
 5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -3495,7 +3495,7 @@
 4	Elvis	Elvis	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Presley	Presley	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	enregistré	enregistrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	son	son	DET	_	Number=Sing|Poss=Yes	12	det	_	_
@@ -3562,7 +3562,7 @@
 6	Penn	Penn	PROPN	_	_	11	nsubj	_	_
 7	State	State	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 11	gagnées	gagner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	?	?	PUNCT	_	_	11	punct	_	_
@@ -3574,7 +3574,7 @@
 3	agent	agent	NOUN	_	Number=Sing	5	nsubj	_	_
 4	recenseur	recenseur	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -3592,7 +3592,7 @@
 1	Que	que	PRON	_	PronType=Int	3	obj	_	_
 2	se	le/lui	PRON	_	Person=3|Reflex=Yes	3	expl:comp	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	en	en_cas_de	ADP	_	_	9	case	_	EXTPOS=ADP
 7	cas	_	NOUN	_	_	6	fixed	_	_
@@ -3607,7 +3607,7 @@
 3	agent	agent	NOUN	_	Number=Sing	5	nsubj	_	_
 4	recenseur	recenseur	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	récupère	récupérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	questionnaires	questionnaire	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -3749,7 +3749,7 @@
 5	handicap	handicap	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
 7	figure	figurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 10	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
@@ -3802,7 +3802,7 @@
 3	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	se	le/lui	PRON	_	Person=3|Reflex=Yes	5	expl:comp	_	_
 5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -3818,7 +3818,7 @@
 3	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	se	le/lui	PRON	_	Person=3|Reflex=Yes	5	expl:comp	_	_
 5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -3912,7 +3912,7 @@
 # text = Quand connaîtra-t-on les résultats du recensement ?
 1	Quand	quand	ADV	_	PronType=Int	2	advmod	_	_
 2	connaîtra	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -3947,7 +3947,7 @@
 # text = Quand disposera-t-on des nouvelles populations légales ?
 1	Quand	quand	ADV	_	PronType=Int	2	advmod	_	_
 2	disposera	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -4256,7 +4256,7 @@
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	comment	comment	ADV	_	PronType=Int	1	conj	_	_
 4	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	4	nsubj	_	_
 7	me	le/lui	PRON	_	Number=Sing|Person=1	8	iobj	_	_
 8	verser	verser	VERB	_	VerbForm=Inf	4	xcomp	_	_
@@ -5041,7 +5041,7 @@
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	habitation	habitation	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	SpaceAfter=No
-14	-t	t	PART	_	_	15	expl	_	SpaceAfter=No
+14	-t	t	PART	_	_	15	dep	_	SpaceAfter=No
 15	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	16	expl	_	_
 16	diminuée	diminuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
 17-18	au	_	_	_	_	_	_	_	_
@@ -5883,7 +5883,7 @@
 1	Y	y	PRON	_	Person=3	3	expl:comp	_	_
 2	-	-	PUNCT	_	_	3	punct	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	situations	situation	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
@@ -5984,7 +5984,7 @@
 2	David	David	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Koresh	Koresh	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -6007,7 +6007,7 @@
 4	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Qintex	Qintex	PROPN	_	_	4	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	laissées	laisser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -6118,7 +6118,7 @@
 3	Manchester	Manchester	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	United	United	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 8	dépensé	dépenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	sur	sur	ADP	_	_	11	case	_	_
@@ -6273,7 +6273,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	jurassique	jurassique	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 11	fin	fin	NOUN	_	Number=Sing	10	obj	_	_
@@ -6300,7 +6300,7 @@
 1	Quand	quand	ADV	_	PronType=Int	6	advmod	_	_
 2	Nixon	Nixon	PROPN	_	_	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 6	visité	visiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -6839,7 +6839,7 @@
 3	calories	calorie	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -7103,7 +7103,7 @@
 4	Joe	Joe	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	DiMaggio	DiMaggio	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	11	det	_	_
@@ -7129,7 +7129,7 @@
 8	Howdy	Howdy	PROPN	_	_	7	nmod	_	_
 9	Doody	Doody	PROPN	_	_	8	flat:name	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	13	expl	_	_
 13	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	d'	de	ADP	_	_	16	mark	_	SpaceAfter=No
@@ -7179,7 +7179,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	exclue	exclure	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -7287,7 +7287,7 @@
 7	Lou	Lou	PROPN	_	Number=Sing	12	nsubj	_	_
 8	Gehrig	Gehrig	PROPN	_	_	7	flat:name	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-10	-t	t	PART	_	_	11	expl	_	SpaceAfter=No
+10	-t	t	PART	_	_	11	dep	_	SpaceAfter=No
 11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	expl	_	_
 12	jouées	jouer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 13	?	?	PUNCT	_	_	12	punct	_	_
@@ -7403,7 +7403,7 @@
 3	âge	âge	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 4	Rossini	Rossini	PROPN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	de	de	ADP	_	_	10	mark	_	_
@@ -7677,7 +7677,7 @@
 5	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	Honda	Honda	PROPN	_	_	5	nmod	_	_
 7	emploie	employer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 10-11	aux	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -7782,7 +7782,7 @@
 # text = Comment nomme-t-on l'état médical d'un enfant né sans cerveau ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	état	état	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -8020,7 +8020,7 @@
 1	Quand	quand	ADV	_	PronType=Int	6	advmod	_	_
 2	Israël	Israël	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 6	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	à	à	ADP	_	_	8	mark	_	_
@@ -8076,7 +8076,7 @@
 6	Warren	Warren	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
 7	Spahn	Spahn	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	expl	_	_
 11	été	être	AUX	_	Tense=Past|VerbForm=Part	12	cop	_	_
 12	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -8103,7 +8103,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Yémen	Yémen	PROPN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	réunifié	réunifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8144,7 +8144,7 @@
 # text = Comment nomme-t-on la technique par laquelle l'on sème certaines plantes dans un sol contaminé aux métaux toxiques afin que ces plantes ingèrent ces métaux, qu'elles soient récoltées, puis que les métaux soient recouvrés à fins de recyclage ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	technique	technique	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -8253,7 +8253,7 @@
 # text = Comment nomme-t-on le processus normal chez tout être vivant, y compris chez les êtres humains, par lequel des cellules sont programmées à se "suicider" ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	processus	processus	NOUN	_	Gender=Masc	2	obj	_	_
@@ -8454,7 +8454,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Irlande	Irlande	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 9	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	12	det	_	_
@@ -8569,7 +8569,7 @@
 8	Bjorn	Bjorn	PROPN	_	_	13	nsubj	_	_
 9	Borg	Borg	PROPN	_	_	8	flat:name	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	13	expl	_	_
 13	remportés	remporter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 14	?	?	PUNCT	_	_	13	punct	_	_
@@ -8596,7 +8596,7 @@
 4	Manuel	Manuel	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
 5	Noriega	Noriega	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	évincé	évincer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8742,7 +8742,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Nord	Nord	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	14	expl	_	_
 13	récemment	récemment	ADV	_	_	14	advmod	_	_
 14	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8899,7 +8899,7 @@
 3	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Tucson	Tucson	PROPN	_	_	5	obl:mod	_	_
@@ -9058,7 +9058,7 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	14	expl	_	_
 13	été	être	AUX	_	Tense=Past|VerbForm=Part	14	aux:pass	_	_
 14	ratifié	ratifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -9795,7 +9795,7 @@
 3	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -9982,7 +9982,7 @@
 # text = Comment nomme-t-on les nuages qui produisent de la pluie
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	nuages	nuage	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -10030,7 +10030,7 @@
 1	Où	où	ADV	_	PronType=Int	3	advmod	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	aborigènes	aborigène	NOUN	_	Number=Plur	3	obj	_	_
@@ -10142,7 +10142,7 @@
 2	Géraldine	Géraldine	PROPN	_	_	7	nsubj	_	_
 3	Ferraro	Ferraro	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 7	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	9	det	_	_
@@ -10266,7 +10266,7 @@
 3	période	période	NOUN	_	Number=Sing	5	nsubj	_	_
 4	carolingienne	carolingien	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	débuta	débuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -10310,7 +10310,7 @@
 4	Ingmar	Ingmar	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Bergman	Bergman	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	réalisés	réaliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -10354,7 +10354,7 @@
 5	lémuriens	lémurien	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 6	y	y	PRON	_	Person=3	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 10	?	?	PUNCT	_	_	7	punct	_	_
 
@@ -10464,7 +10464,7 @@
 4	Babe	Babe	PROPN	_	_	9	nsubj	_	_
 5	Ruth	Ruth	PROPN	_	Gender=Fem|Number=Sing	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	frappés	frapper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
@@ -10575,7 +10575,7 @@
 3	Bill	Bill	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Gates	Gates	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	fréquenté	fréquenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -10585,7 +10585,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	advmod	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	continents	continent	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
@@ -11284,7 +11284,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Terre	Terre	PROPN	_	_	6	nsubj	_	_
 6	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 9	autour	autour_de	ADV	_	_	12	case	_	EXTPOS=ADP
 10-11	du	_	_	_	_	_	_	_	_
@@ -11372,7 +11372,7 @@
 # text = Où a-t-on le plus de chances de trouver des zèbres ?
 1	Où	où	ADV	_	PronType=Int	2	obl:arg	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 6	plus	plus	ADV	_	_	5	advmod	_	_
@@ -11695,7 +11695,7 @@
 3	touristiques	touristique	ADJ	_	Number=Plur	2	amod	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Reims	Reims	PROPN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
@@ -11848,7 +11848,7 @@
 # text = Comment nomme-t-on un groupe d'oies ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -11866,7 +11866,7 @@
 6	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	normale	normal	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 8	dure	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 11	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -12122,7 +12122,7 @@
 3	abréviation	abréviation	NOUN	_	Gender=Fem|Number=Sing	5	xcomp	_	_
 4	anglaise	anglais	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-on	il	PRON	_	Number=Sing|Person=3	5	nsubj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	équipementier	équipementier	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -12361,7 +12361,7 @@
 4	Hillary	Hillary	PROPN	_	Number=Sing	10	nsubj:pass	_	_
 5	Clinton	Clinton	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	diplômée	diplômer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -12747,7 +12747,7 @@
 2	Aldous	Aldous	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Huxley	Huxley	PROPN	_	_	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -12997,7 +12997,7 @@
 4	Madilyn	Madilyn	PROPN	_	_	9	nsubj	_	_
 5	Kahn	Kahn	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 9	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	avec	avec	ADP	_	_	11	case	_	_
@@ -13042,7 +13042,7 @@
 2	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	3	det	_	_
 3	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 4	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	4	nsubj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
@@ -13576,7 +13576,7 @@
 4	postaux	postal	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 5	y	y	PRON	_	Person=3	6	expl:comp	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
@@ -13852,7 +13852,7 @@
 4	Lou	Lou	PROPN	_	Number=Sing	9	nsubj	_	_
 5	Gehrig	Gehrig	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	faits	faire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
@@ -13967,7 +13967,7 @@
 4	Van	Van	PROPN	_	Gender=Masc|Number=Sing	3	flat:name	_	_
 5	Gogh	Gogh	PROPN	_	_	3	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	peint	peindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -14250,7 +14250,7 @@
 3	casinos	casino	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Atlantic	Atlantic	PROPN	_	_	5	obl:mod	_	_
@@ -14432,7 +14432,7 @@
 # text = Comment nomme-t-on l'art de faire pousser des arbres miniatures ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	art	art	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -14493,7 +14493,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	chasse	chasse	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	emploie	employer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-on	il	PRON	_	Number=Sing|Person=3	6	nsubj	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	lévriers	lévrier	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
@@ -14531,7 +14531,7 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	Tchernobyl	Tchernobyl	PROPN	_	_	3	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
@@ -14804,7 +14804,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Dow	Dow	PROPN	_	_	7	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	2000	2000	PRON	_	NumType=Card	7	obj	_	_
@@ -14832,7 +14832,7 @@
 3	miles	mile	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	entre	entre	ADP	_	_	9	case	_	_
 9	Londres	Londres	PROPN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
@@ -14879,7 +14879,7 @@
 3	comtés	comté	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	Inde	Inde	PROPN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
@@ -15066,7 +15066,7 @@
 5	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
 6	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	fabriquée	fabriquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -15186,7 +15186,7 @@
 6	Avery	Avery	PROPN	_	Number=Sing	5	appos	_	_
 7	Dennison	Dennison	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	12	expl	_	_
 11	été	être	AUX	_	Tense=Past|VerbForm=Part	12	aux:pass	_	_
 12	fondée	fonder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -15343,7 +15343,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	courte-pointe	courte-pointe	NOUN	_	_	3	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -15353,7 +15353,7 @@
 1	Quand	quand	ADV	_	PronType=Int	6	advmod	_	_
 2	Amtrak	Amtrak	PROPN	_	_	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 6	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	ses	son	DET	_	Number=Plur|Poss=Yes	8	det	_	_
@@ -15436,7 +15436,7 @@
 5	Mpilo	Mpilo	PROPN	_	_	4	flat:name	_	_
 6	Tutu	Tutu	PROPN	_	_	4	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -15527,7 +15527,7 @@
 # text = Comment nomme-t-on quelqu'un dont la vue est courte ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	quelqu'	quelqu'un	DET	_	Definite=Ind|Number=Sing|PronType=Art	2	obj	_	EXTPOS=PRON|SpaceAfter=No
 6	un	_	PRON	_	_	5	fixed	_	_
@@ -16042,7 +16042,7 @@
 3	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 4	CNN	CNN	NOUN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 8	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	10	det	_	_
@@ -16068,7 +16068,7 @@
 1	Quand	quand	ADV	_	PronType=Int	6	advmod	_	_
 2	CNN	CNN	NOUN	_	_	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 6	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	8	det	_	_
@@ -16860,7 +16860,7 @@
 # text = Où trouve-t-on le corps calleux d'un individu ?
 1	Où	où	ADV	_	PronType=Int	2	obl:arg	_	_
 2	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	corps	corps	NOUN	_	Gender=Masc	2	obj	_	_
@@ -17828,7 +17828,7 @@
 # text = Comment surnomme-t-on le Mississippi ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	surnomme	surnommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Mississippi	Mississippi-Missouri	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -18109,7 +18109,7 @@
 6	George	George	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 7	Bush	Bush	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 11	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
@@ -18135,7 +18135,7 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	lune	lune	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	4	expl	_	_
 7	orange	orange	ADJ	_	Number=Sing	4	xcomp	_	_
 8	?	?	PUNCT	_	_	4	punct	_	_
@@ -18272,7 +18272,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Titanic	Titanic	PROPN	_	_	9	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	coulé	couler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -18466,7 +18466,7 @@
 3	F.	F.	PROPN	_	_	2	flat:name	_	_
 4	Kennedy	Kennedy	PROPN	_	Number=Sing	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -18534,7 +18534,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	advmod	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 7	Grands	grand	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -18606,7 +18606,7 @@
 # text = Comment nomme-t-on un groupe de dindes ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -18623,7 +18623,7 @@
 5	Van	Van	PROPN	_	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	Winkle	Winkle	PROPN	_	_	4	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	dormi	dormir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -18863,7 +18863,7 @@
 # text = Comment appelle-t-on le nouveau-né d'un kangourou ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	nouveau-né	nouveau-né	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -19177,7 +19177,7 @@
 8	Trésor	Trésor	PROPN	_	_	5	nmod	_	_
 9	américain	américain	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	13	expl	_	_
 13	émis	émettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 14	pour	pour_la_première_fois	ADP	_	_	13	advmod	_	EXTPOS=ADV
@@ -19336,7 +19336,7 @@
 # text = Comment mesure-t-on les tremblements de terre ?
 1	Comment	comment	ADV	_	PronType=Int	2	advmod	_	_
 2	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	tremblements	tremblement	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -19960,7 +19960,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	Algérie	Algérie	PROPN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	colonisée	coloniser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -20596,7 +20596,7 @@
 # text = Comment nomme-t-on les animaux qui ne possèdent pas de colonne vertébrale ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -20792,7 +20792,7 @@
 3	livres	livre	NOUN	_	Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -20833,7 +20833,7 @@
 5	Mona	Mona	PROPN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 6	Lisa	Lisa	PROPN	_	Gender=Fem|Number=Sing	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	peinte	peindre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -20978,7 +20978,7 @@
 5	eau	eau	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	y	y	PRON	_	Person=3	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -21268,7 +21268,7 @@
 # text = Comment appelle-t-on la tenue multicolore traditionnelle de la Corée ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	tenue	tenue	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -21693,7 +21693,7 @@
 # text = Comment appelle-t-on un dessinateur de carte géographique professionnel ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	dessinateur	dessinateur	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -21787,7 +21787,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	lnf	lnf	PROPN	_	_	9	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 9	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -21813,7 +21813,7 @@
 4	Neil	Neil	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Armstrong	Armstrong	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	sur	sur	ADP	_	_	12	case	_	_
@@ -21826,7 +21826,7 @@
 1	Quand	quand	ADV	_	PronType=Int	7	advmod	_	_
 2	Hiroshima	Hiroshima	PROPN	_	_	7	nsubj:pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 6	été	être	AUX	_	Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	bombardée	bombarder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -21894,7 +21894,7 @@
 3	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 4	Mussolini	Mussolini	PROPN	_	_	8	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -21932,7 +21932,7 @@
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	pieuvre	pieuvre	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -22039,7 +22039,7 @@
 3	Président	président	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 4	Kennedy	Kennedy	PROPN	_	Number=Sing	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	assassiné	assassiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -22164,7 +22164,7 @@
 # text = Comment nomme-t-on un groupe de grenouilles ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -22376,7 +22376,7 @@
 9	Andy	Andy	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 10	Griffith	Griffith	PROPN	_	Gender=Masc|Number=Sing	9	flat:name	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-12	-t	t	PART	_	_	13	expl	_	SpaceAfter=No
+12	-t	t	PART	_	_	13	dep	_	SpaceAfter=No
 13	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	14	expl	_	_
 14	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	?	?	PUNCT	_	_	14	punct	_	_
@@ -22493,7 +22493,7 @@
 # text = Pourquoi appelle-t-on "love" un score nul au tennis ?
 1	Pourquoi	pourquoi	ADV	_	PronType=Int	2	advmod	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	love	love	X	_	_	2	xcomp	_	SpaceAfter=No
@@ -22937,7 +22937,7 @@
 # text = Comment appelle-t-on le bébé lion ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -23653,7 +23653,7 @@
 # text = Quand célèbre-t-on la Saint-Patrick ?
 1	Quand	quand	ADV	_	PronType=Int	2	advmod	_	_
 2	célèbre	célébrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Saint-Patrick	Saint-Patrick	PROPN	_	_	2	obj	_	_
@@ -23858,7 +23858,7 @@
 2	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
 3	État	état	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-on	il	PRON	_	Number=Sing|Person=3	4	nsubj	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	montagnes	montagne	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
@@ -23869,7 +23869,7 @@
 # text = Comment appelle-t-on un mot qui s'épelle de la même façon à l'envers qu'à l'endroit ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	mot	mot	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -23960,7 +23960,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Luxembourg	Luxembourg	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -23998,7 +23998,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Argentine	Argentine	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	6	expl	_	_
 9	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -24184,7 +24184,7 @@
 6	Alan	Alan	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
 7	Shepard	Shepard	PROPN	_	_	6	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 11	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	son	son	DET	_	Number=Sing|Poss=Yes	13	det	_	_
@@ -24236,7 +24236,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Titanic	Titanic	PROPN	_	_	9	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	son	son	DET	_	Number=Sing|Poss=Yes	11	det	_	_
@@ -24409,7 +24409,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	télégraphe	télégraphe	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -24436,7 +24436,7 @@
 4	Wilt	Wilt	PROPN	_	_	9	nsubj	_	_
 5	Chamberlain	Chamberlain	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	marqué	marquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	100	100	NUM	_	NumType=Card	11	nummod	_	_
@@ -24452,7 +24452,7 @@
 5	combustion	combustion	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	interne	interne	ADJ	_	Number=Sing	5	amod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -24476,7 +24476,7 @@
 3	onces	once	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -24494,7 +24494,7 @@
 7	Juliette	Juliette	PROPN	_	Gender=Fem|Number=Sing	5	conj	_	_
 8	se	le/lui	PRON	_	Person=3|Reflex=Yes	9	expl:comp	_	_
 9	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	-t	t	PART	_	_	11	expl	_	SpaceAfter=No
+10	-t	t	PART	_	_	11	dep	_	SpaceAfter=No
 11	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 12	?	?	PUNCT	_	_	9	punct	_	_
 
@@ -24697,7 +24697,7 @@
 2	Mike	Mike	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	Tyson	Tyson	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	mordu	mordre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -24948,7 +24948,7 @@
 8	Colorado	Colorado	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	se	le/lui	PRON	_	Person=3|Reflex=Yes	10	expl:comp	_	_
 10	jette	jeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	-t	t	PART	_	_	12	expl	_	SpaceAfter=No
+11	-t	t	PART	_	_	12	dep	_	SpaceAfter=No
 12	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 13	?	?	PUNCT	_	_	10	punct	_	_
 
@@ -25083,7 +25083,7 @@
 3	Magic	Magic	PROPN	_	_	8	nsubj	_	_
 4	Johnson	Johnson	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	fréquenté	fréquenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -25340,7 +25340,7 @@
 5	de	de	ADP	_	_	6	mark	_	_
 6	pétrifié	pétrifié	ADJ	_	Gender=Masc|Number=Sing	3	acl	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -25353,7 +25353,7 @@
 3	Graham	Graham	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	Bell	Bell	PROPN	_	_	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -25547,7 +25547,7 @@
 3	Allen	Allen	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Iverson	Iverson	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	fréquenté	fréquenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -25577,7 +25577,7 @@
 4	Roger	Roger	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
 5	Williams	Williams	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	grandi	grandir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -25749,7 +25749,7 @@
 3	Emmit	Emmit	PROPN	_	_	8	nsubj	_	_
 4	Smith	Smith	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	fréquentée	fréquenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -25802,7 +25802,7 @@
 5	Président	président	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 6	Kennedy	Kennedy	PROPN	_	Number=Sing	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -26053,7 +26053,7 @@
 5	île	île	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	Ellis	Ellis	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	ses	son	DET	_	Number=Plur|Poss=Yes	12	det	_	_
@@ -26068,7 +26068,7 @@
 # text = Comment nomme-t-on le couvre-chef que portent les Saoudiens ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	couvre-chef	couvre-chef	NOUN	_	_	2	obj	_	_
@@ -26359,7 +26359,7 @@
 # text = Comment appelle-t-on la femelle du lapin ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	femelle	femelle	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
@@ -26428,7 +26428,7 @@
 5	ordinateur	ordinateur	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 6	personnel	personnel	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -26558,7 +26558,7 @@
 5	Dr	Docteur	NOUN	_	_	10	nsubj	_	_
 6	King	King	PROPN	_	Gender=Masc|Number=Sing	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	son	son	DET	_	Number=Sing|Poss=Yes	12	det	_	_
@@ -26591,7 +26591,7 @@
 9	crème	crème	NOUN	_	Number=Sing	7	nmod	_	_
 10	glacée	glacé	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
-12	-t	t	PART	_	_	13	expl	_	SpaceAfter=No
+12	-t	t	PART	_	_	13	dep	_	SpaceAfter=No
 13	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	15	expl	_	_
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	déposé	déposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -26606,7 +26606,7 @@
 5	Sécession	sécession	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	américaine	américain	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -26698,7 +26698,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Viêtnam	Viêtnam	PROPN	_	_	3	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 11	fin	fin	NOUN	_	Number=Sing	10	obj	_	_
@@ -26724,7 +26724,7 @@
 3	cuivre	cuivre	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -26859,7 +26859,7 @@
 1	Quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	2	det	_	_
 2	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 3	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-on	il	PRON	_	Number=Sing|Person=3	3	nsubj	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -26877,7 +26877,7 @@
 1	Quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	2	det	_	_
 2	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 3	célèbre	célébrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-on	il	PRON	_	Number=Sing|Person=3	3	nsubj	_	_
 6	après	après	ADP	_	_	8	case	_	_
 7	20	20	NUM	_	NumType=Card	8	nummod	_	_
@@ -26900,7 +26900,7 @@
 # text = Comment appelle-t-on le texte d'un opéra ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	texte	texte	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -26916,7 +26916,7 @@
 3	W.	W.	PROPN	_	_	2	flat:name	_	_
 4	Bush	Bush	PROPN	_	_	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -26948,7 +26948,7 @@
 4	Golden	Golden	PROPN	_	_	3	appos	_	_
 5	Gate	Gate	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
 10	achevé	achever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -27040,7 +27040,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Reichstag	Reichstag	PROPN	_	_	7	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	brûlé	brûler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	?	?	PUNCT	_	_	7	punct	_	_
@@ -27562,7 +27562,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	chien	chien	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	domestiqué	domestiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -27589,7 +27589,7 @@
 3	protéines	protéine	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	y	y	PRON	_	Person=3	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -27741,7 +27741,7 @@
 # text = Comment appelle-t-on le bébé du paresseux ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -27835,7 +27835,7 @@
 5	navette	navette	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	Challenger	Challenger	PROPN	_	_	5	nmod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	explosé	exploser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -28009,7 +28009,7 @@
 # text = Comment nomme-t-on les personnes qui fabriquent des feux d'artifices ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -28040,7 +28040,7 @@
 2	Marian	Marian	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	Anderson	Anderson	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 7	chanté	chanter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
@@ -28158,7 +28158,7 @@
 9	pèlerin	pèlerin	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	s'	le/lui	PRON	_	Person=3|Reflex=Yes	11	expl:comp	_	SpaceAfter=No
 11	accouple	accoupler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-12	-t	t	PART	_	_	13	expl	_	SpaceAfter=No
+12	-t	t	PART	_	_	13	dep	_	SpaceAfter=No
 13	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 14	?	?	PUNCT	_	_	11	punct	_	_
 
@@ -28169,7 +28169,7 @@
 3	Neil	Neil	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Armstrong	Armstrong	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	sur	sur	ADP	_	_	11	case	_	_
@@ -28195,7 +28195,7 @@
 # text = Quand a-t-on trouvé de l'eau sur Mars ?
 1	Quand	quand	ADV	_	PronType=Int	5	advmod	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	5	nsubj	_	_
 5	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de_le	ADP	_	_	8	det	_	EXTPOS=DET
@@ -28390,7 +28390,7 @@
 7	Time	Time	X	_	_	5	flat:foreign	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-10	-t	t	PART	_	_	11	expl	_	SpaceAfter=No
+10	-t	t	PART	_	_	11	dep	_	SpaceAfter=No
 11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	13	expl	_	_
 12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
 13	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -28457,7 +28457,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	crayon	crayon	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -28810,7 +28810,7 @@
 5	monticule	monticule	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	se	le/lui	PRON	_	Person=3|Reflex=Yes	7	expl:comp	_	_
 7	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -28863,7 +28863,7 @@
 3	Ogden	Ogden	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	Stiers	Stiers	PROPN	_	_	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	son	son	DET	_	Number=Sing|Poss=Yes	10	det	_	_
@@ -28908,7 +28908,7 @@
 3	stade	stade	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Yankee	Yankee	PROPN	_	_	3	nmod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	ses	son	DET	_	Number=Plur|Poss=Yes	10	det	_	_
@@ -28949,7 +28949,7 @@
 5	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	américain	américain	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	procède	procéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -29021,7 +29021,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	corps	corps	NOUN	_	Gender=Masc	5	obl:mod	_	_
 5	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-on	il	PRON	_	Number=Sing|Person=3	5	nsubj	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	joues	joue	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
@@ -29097,7 +29097,7 @@
 3	période	période	NOUN	_	Number=Sing	8	nsubj	_	_
 4	mésozoïque	mésozoïque	ADJ	_	_	3	amod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	8	expl	_	_
 8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 9	fin	fin	NOUN	_	Number=Sing	8	obj	_	_
@@ -29243,7 +29243,7 @@
 16	D.	D.	PROPN	_	_	14	nmod	_	_
 17	C.	C.	PROPN	_	_	16	flat:name	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No
-19	-t	t	PART	_	_	20	expl	_	SpaceAfter=No
+19	-t	t	PART	_	_	20	dep	_	SpaceAfter=No
 20	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	22	expl	_	_
 21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -29302,7 +29302,7 @@
 5	Iwo	Iwo	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	Jima	Jima	PROPN	_	_	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	10	expl	_	_
 10	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
@@ -29347,7 +29347,7 @@
 1	Combien	combien	ADV	_	PronType=Int	3	advmod	_	_
 2	y	y	PRON	_	Person=3	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	notes	note	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
@@ -29391,7 +29391,7 @@
 4	Fidel	Fidel	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	Castro	Castro	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-t	t	PART	_	_	8	expl	_	SpaceAfter=No
+7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
 8	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	expl	_	_
 9	renversé	renverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	en	en	ADP	_	_	11	case	_	_
@@ -29441,7 +29441,7 @@
 5	Pierce	Pierce	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 6	Brosnan	Brosnan	PROPN	_	_	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
@@ -29526,7 +29526,7 @@
 # text = Comment appelle-t-on un groupe d'antilopes ?
 1	Comment	comment	ADV	_	PronType=Int	2	xcomp	_	_
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
+3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
 4	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -29544,7 +29544,7 @@
 6	phare	phare	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 7	américain	américain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
-9	-t	t	PART	_	_	10	expl	_	SpaceAfter=No
+9	-t	t	PART	_	_	10	dep	_	SpaceAfter=No
 10	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	11	expl	_	_
 11	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	?	?	PUNCT	_	_	11	punct	_	_
@@ -29556,7 +29556,7 @@
 3	Scott	Scott	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	Bakula	Bakula	PROPN	_	_	3	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	10	case	_	_
@@ -29748,7 +29748,7 @@
 3	année	année	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 4	Mir	Mir	PROPN	_	_	9	nsubj:pass	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	expl	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	démontée	démonter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -29827,7 +29827,7 @@
 5	Général	général	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 6	Montgomery	Montgomery	PROPN	_	Gender=Masc|Number=Sing	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
+8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
 9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	10	expl	_	_
 10	mené	mener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -29931,7 +29931,7 @@
 3	Haviland	Haviland	PROPN	_	_	2	flat:name	_	_
 4	Carrier	Carrier	PROPN	_	_	2	flat:name	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
+6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	8	expl	_	_
 8	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -30148,7 +30148,7 @@
 2	Golda	Golda	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	Meir	Meir	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	7	expl	_	_
 7	grandi	grandir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	?	?	PUNCT	_	_	7	punct	_	_
@@ -30598,7 +30598,7 @@
 2	Henri	Henri	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	VIII	VIII	ADJ	_	_	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
 7	régné	régner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
@@ -30881,7 +30881,7 @@
 2	gravité	gravité	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 3	y	y	PRON	_	Person=3	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
+5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
 6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 7	sur	sur	ADP	_	_	8	case	_	_
 8	Mars	Mars	PROPN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
@@ -31054,7 +31054,7 @@
 1	Quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
 2	langue	langue	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 3	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-on	il	PRON	_	Number=Sing|Person=3	3	nsubj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	Nouvelle-Calédonie	Nouvelle-Calédonie	PROPN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
@@ -31177,7 +31177,7 @@
 1	Que	que	PRON	_	PronType=Int	3	obj	_	_
 2	cela	cela	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
 3	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
+4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
 5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	3	expl	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -31414,7 +31414,7 @@
 # sent_id = FQB_UNESCO-17
 # text = Existe-t-il des publications ou des brochures gratuites sur le patrimoine mondial ?
 1	Existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	-t	t	PART	_	_	3	expl	_	SpaceAfter=No
+2	-t	t	PART	_	_	3	dep	_	SpaceAfter=No
 3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	publications	publication	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	_
