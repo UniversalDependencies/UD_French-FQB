@@ -68,33 +68,34 @@
     <feat name="Voice" value="Pass" upos="VERB">247</feat><!-- situé, connu, inventé, connue, construit, enterré, fait, située, construite, élu -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">145</dep>
     <dep name="acl:relcl">77</dep>
     <dep name="advcl">109</dep>
     <dep name="advcl:cleft">17</dep>
     <dep name="advmod">530</dep>
     <dep name="amod">944</dep>
-    <dep name="appos">1</dep>
-    <dep name="aux">503</dep>
+    <dep name="appos">55</dep>
     <dep name="aux:caus">3</dep>
     <dep name="aux:pass">247</dep>
-    <dep name="case">2691</dep>
+    <dep name="aux:tense">503</dep>
+    <dep name="case">2684</dep>
     <dep name="cc">98</dep>
     <dep name="ccomp">14</dep>
     <dep name="conj">108</dep>
     <dep name="cop">947</dep>
-    <dep name="dep">79</dep>
-    <dep name="det">3801</dep>
+    <dep name="dep">313</dep>
+    <dep name="det">3808</dep>
     <dep name="dislocated">139</dep>
-    <dep name="expl">741</dep>
+    <dep name="expl:comp">176</dep>
+    <dep name="expl:subj">331</dep>
     <dep name="fixed">163</dep>
     <dep name="flat:foreign">131</dep>
-    <dep name="flat:name">570</dep>
+    <dep name="flat:name">581</dep>
     <dep name="goeswith">1</dep>
     <dep name="iobj">9</dep>
     <dep name="mark">297</dep>
-    <dep name="nmod">1913</dep>
+    <dep name="nmod">1848</dep>
     <dep name="nsubj">2163</dep>
     <dep name="nsubj:caus">1</dep>
     <dep name="nsubj:pass">240</dep>
