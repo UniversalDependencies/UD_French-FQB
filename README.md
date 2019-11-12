@@ -1,6 +1,6 @@
 # Summary
 
-The corpus **UD_French-FQB** is an automatic conversion of the [French QuestionBank v1](http://alpage.inria.fr/Treebanks/FQB/), a corpus entirely made of questions
+The corpus **UD_French-FQB** is an automatic conversion of the [French QuestionBank v1](http://alpage.inria.fr/Treebanks/FQB/), a corpus entirely made of questions.
 
 # Introduction
 
@@ -10,24 +10,22 @@ It was converted to **UD** with the conversion system described in the chapter 3
 The original annotation scheme versions (phrase-structure, surface dependencies following the FTB scheme, Deep syntax annotations following the [Deep Sequoia scheme](https://deep-sequoia.inria.fr) are available at the following [URL](http://alpage.inria.fr/Treebanks/FQB/).
 
 # Recommended splits
-Due to the UD constraints on the test set size (at least 10k tokens) , we recommand to simply concatenate this treebank to the [Sequoia](https://universaldependencies.org/treebanks/fr_sequoia/index.html) and [FTB](https://github.com/UniversalDependencies/UD_French-FTB) treebanks in order to get a robust, less domain sensitive, parser. Those 3 treebanks are perfectly compatible and were converted by the same team.
+Due to the UD constraints on the test set size (at least 10k tokens), we recommend to simply concatenate this treebank to the [Sequoia](https://universaldependencies.org/treebanks/fr_sequoia/index.html) and [FTB](https://github.com/UniversalDependencies/UD_French-FTB) treebanks in order to get a robust, less domain sensitive, parser. Those 3 treebanks are perfectly compatible and were converted by the same team.
 
-In our own experiments, we either used the **UD_French-FQB** in a 10-folds cross-validation scenario or in a train/dev/test scenario whith the  i_th sentence in train, i_th+1 in dev, i_th+2 in test.
+In our own experiments, we either used the **UD_French-FQB** in a 10-folds cross-validation scenario or in a train/dev/test scenario with the i_th sentence in train, i_th+1 in dev, i_th+2 in test.
 
 
 # Statistics
 * sentences: 2289
 * words: 23236
-* Average sentence lenght: 10.15
+* Average sentence length: 10.15
 
 # Domains
 * TREC 08-11: 1893 sents.
 * French Government/NGOs FAQs: 196 sents.
 * CLEF 03: 200 (sents.)
 
-Note that the TREC domain questions are a translation of the corresponding questions in the English Question Bank (Judge et al, 2006). 
-
-
+Note that the TREC domain questions are a translation of the corresponding questions in the English Question Bank (Judge et al, 2006).
 
 # Acknowledgments
 * contributors: Marie Candito, Bruno Guillaume, Djamé Seddah
@@ -41,9 +39,17 @@ Note that the TREC domain questions are a translation of the corresponding quest
 
 * Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set, Christian Rétoré, 1786300966. ⟨hal-01814386⟩
 
-* John Judge, Aoife Cahill,  and Joseph van Genabith,  (2006). [QuestionBank: Creating a Corpus of Parse-Annotated Questions](https://aclweb.org/anthology/papers/P/P06/P06-1063/). In Proceedings of the 21st International Conference on Computational Linguistics and 44th Anual Meeting of the Association for Computational Linguistics (COLING-ACL 2006), pages 497–504, Sydney, Australia.
+* John Judge, Aoife Cahill,  and Joseph van Genabith,  (2006). [QuestionBank: Creating a Corpus of Parse-Annotated Questions](https://aclweb.org/anthology/papers/P/P06/P06-1063/). In Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics (COLING-ACL 2006), pages 497–504, Sydney, Australia.
 
+# Changelog
 
+* 2019-11_15 v2.5
+  * Update the conversion process to improve consistency with other French treebanks:
+     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass` 
+     * `aux` -> `aux:tense`
+     * `MWEPOS` -> `EXTPOS` 
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
