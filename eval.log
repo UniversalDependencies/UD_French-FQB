@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-FQB:
-commit a6f8e7bb9b9fbf6cd8d8e4aed2c7e9f70593311e
-Merge: c437faa 3616510
+commit fbcf1e9ba97b918a84ad73b7b824f83d3f7c5195
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:00:52 2019 +0100
 Size: counted 24135 of 24135 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.36732613822491.
 Size: maximum value 13.815511 is for 1000000 words or more.
