@@ -43,11 +43,13 @@ Note that the TREC domain questions are a translation of the corresponding quest
 
 # Changelog
 
-* 2019-11_15 v2.5
+* 2020-11-15 v2.7
+  * New conversion from original treebank
+* 2019-11-15 v2.5
   * Update the conversion process to improve consistency with other French treebanks:
-     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass` 
+     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass`
      * `aux` -> `aux:tense`
-     * `MWEPOS` -> `EXTPOS` 
+     * `MWEPOS` -> `EXTPOS`
 * 2019-05-15 v2.4
   * Initial release in Universal Dependencies.
 
