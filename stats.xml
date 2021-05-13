@@ -5,16 +5,16 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2289</sentences><tokens>23583</tokens><words>24135</words><fused>552</fused></total>
+    <total><sentences>2289</sentences><tokens>23349</tokens><words>23901</words><fused>552</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>2289</sentences><tokens>23583</tokens><words>24135</words><fused>552</fused></test>
+    <test><sentences>2289</sentences><tokens>23349</tokens><words>23901</words><fused>552</fused></test>
   </size>
-  <lemmas unique="3641" /><!-- le, ?, de, être, quel, il, avoir, à, que, un, ", qui, t, en, où -->
-  <forms unique="4216" /><!-- ?, de, le, est, la, quelle, l', quel, à, a, les, ", qui, d', -il -->
+  <lemmas unique="3640" /><!-- le, ?, de, être, quel, il, avoir, à, que, un, ", qui, en, où, dans -->
+  <forms unique="4218" /><!-- ?, de, le, est, la, quelle, l', quel, à, a, les, ", qui, d', en -->
   <fusions unique="4" /><!-- du, des, au, aux -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="17">
+  <tags unique="16">
     <tag name="ADJ">1511</tag><!-- quel, premier, américain, grand, mondial, principal, célèbre, haut, humain, national -->
     <tag name="ADP">2869</tag><!-- de, à, en, dans, pour, sur, par, _, sous, comme -->
     <tag name="ADV">843</tag><!-- où, quand, plus, combien, comment, ne, pas, pourquoi, surtout, _ -->
@@ -24,7 +24,6 @@
     <tag name="INTJ">3</tag><!-- crac, cric, croc -->
     <tag name="NOUN">4052</tag><!-- nom, année, ville, président, état, lieu, logement, film, _, pays -->
     <tag name="NUM">115</tag><!-- deux, 1994, 1993, 1989, 1990, 1991, 1992, 1988, 10, 1929 -->
-    <tag name="PART">234</tag><!-- t -->
     <tag name="PRON">1658</tag><!-- il, qui, que, le/lui, ce, quoi, y, lequel, le, _ -->
     <tag name="PROPN">2086</tag><!-- États-Unis, New, Terre, Californie, Alaska, John, York, soleil, Charles, Kentucky -->
     <tag name="PUNCT">2816</tag><!-- ?, ", ,, ., (, ), :, -, ! -->
@@ -37,19 +36,19 @@
   <feats unique="31">
     <feat name="Definite" value="Def" upos="DET">2759</feat><!-- le, la, l', les -->
     <feat name="Definite" value="Ind" upos="DET">375</feat><!-- un, une, des, de, d', quelqu', tout -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">3795</feat><!-- la, quelle, une, -elle, année, ville, première, compagnie, population, capitale -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">6034</feat><!-- le, quel, -il, un, nom, premier, président, état, lieu, logement -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">3795</feat><!-- la, quelle, une, année, ville, -t-elle, -elle, première, compagnie, population -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">6034</feat><!-- le, quel, un, nom, -t-il, -il, premier, président, état, lieu -->
     <feat name="Mood" value="Cnd" upos="VERB">18</feat><!-- devrait, pourrait, prendrait, procurerait, recevrait, voudrais -->
     <feat name="Mood" value="Imp" upos="VERB">37</feat><!-- Nommez, Dites, Définissez, Laissez, Rions -->
     <feat name="Mood" value="Ind" upos="AUX,PRON,VERB">2378</feat><!-- est, a, était, fut, sont, trouve, signifie, ai, puis, eut -->
     <feat name="Mood" value="Sub" upos="AUX">8</feat><!-- soit, ait, soient, aient -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1544</feat><!-- les, sont, des, Nommez, -ils, quelles, quels, mes, ont, vous -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">12296</feat><!-- le, est, la, quelle, quel, l', a, -il, un, nom -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">12296</feat><!-- le, est, la, quelle, quel, l', a, un, nom, -t-il -->
     <feat name="NumType" value="Card" upos="NOUN,NUM,PRON">128</feat><!-- deux, 1994, 1993, 1989, 1990, 1991, 1992, milles, 1988, cent -->
     <feat name="NumType" value="Ord" upos="ADJ">132</feat><!-- premier, première, dernière, deuxième, troisième, 19e, dixième, huitième, premiers, quatrième -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">235</feat><!-- -je, je, ai, puis, j', suis, vais, me, m', -moi -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">106</feat><!-- Nommez, dois, vous, -vous, avez, devez, êtes, viens, Définissez, Laissez -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2905</feat><!-- est, a, -il, se, était, fut, -elle, sont, -on, trouve -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2905</feat><!-- est, a, -t-il, se, -il, était, fut, sont, trouve, -t-elle -->
     <feat name="Polarity" value="Neg" upos="ADV">51</feat><!-- pas, n', ne, plus, que -->
     <feat name="Poss" value="Yes" upos="DET,NOUN">144</feat><!-- mon, mes, son, sa, ma, votre, ses, vos, leur, leurs -->
     <feat name="PronType" value="Art" upos="DET">3134</feat><!-- le, la, l', les, un, une, des, de, d', quelqu' -->
@@ -84,7 +83,7 @@
     <dep name="ccomp">14</dep>
     <dep name="conj">108</dep>
     <dep name="cop">947</dep>
-    <dep name="dep">313</dep>
+    <dep name="dep">79</dep>
     <dep name="det">3808</dep>
     <dep name="dislocated">139</dep>
     <dep name="expl:comp">176</dep>
