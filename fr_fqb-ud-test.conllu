@@ -1,6 +1,6 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = FQB_CAF-1
 # text = Qu'est-ce qu'une aide au logement ?
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	_	1	nsubj	_	_
@@ -1272,8 +1272,8 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	kain	kain	X	_	_	2	nsubj	_	_
-5	ayinhore	ayinhore	X	_	_	4	flat:foreign	_	SpaceAfter=No
+4	kain	kain	X	_	Foreign=Yes	2	nsubj	_	_
+5	ayinhore	ayinhore	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	4	punct	_	_
 7	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -1924,8 +1924,8 @@
 # text = Combien de Porto Ricains habitent dans le comté de Los Angeles ?
 1	Combien	combien	ADV	_	PronType=Int	5	nsubj	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	Porto	Porto	NOUN	_	_	1	obl:arg	_	_
-4	Ricains	ricain	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	_
+3	Porto	Porto	NOUN	_	Typo=Yes	1	obl:arg	_	CorrectForm=Porto-Ricains
+4	Ricains	_	X	_	_	3	goeswith	_	_
 5	habitent	habiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -3336,8 +3336,8 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	War	War	X	_	_	8	dep	_	_
-11	Games	Games	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	War	War	X	_	Foreign=Yes	8	dep	_	_
+11	Games	Games	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	10	punct	_	_
 13	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -5836,13 +5836,13 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	livre	livre	NOUN	_	Number=Sing	4	nmod	_	_
 8	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-9	The	The	X	_	_	16	dep	_	_
-10	Iron	Iron	X	_	_	16	dep	_	_
-11	Lady	Lady	X	_	_	16	dep	_	_
+9	The	The	X	_	Foreign=Yes	16	dep	_	_
+10	Iron	Iron	X	_	Foreign=Yes	16	dep	_	_
+11	Lady	Lady	X	_	Foreign=Yes	16	dep	_	_
 12	:	:	PUNCT	_	_	16	punct	_	_
-13	A	A	X	_	_	16	dep	_	_
-14	Biography	Biography	X	_	_	16	dep	_	_
-15	of	of	X	_	_	16	dep	_	_
+13	A	A	X	_	Foreign=Yes	16	dep	_	_
+14	Biography	Biography	X	_	Foreign=Yes	16	dep	_	_
+15	of	of	X	_	Foreign=Yes	16	dep	_	_
 16	Margaret	Margaret	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 17	Thatcher	Thatcher	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	16	punct	_	_
@@ -6242,8 +6242,8 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
-10	Sleepless	Sleepless	X	_	_	12	dep	_	_
-11	in	in	X	_	_	12	dep	_	_
+10	Sleepless	Sleepless	X	_	Foreign=Yes	12	dep	_	_
+11	in	in	X	_	Foreign=Yes	12	dep	_	_
 12	Seattle	Seattle	PROPN	_	_	8	nmod	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	12	punct	_	_
 14	?	?	PUNCT	_	_	4	punct	_	_
@@ -7123,8 +7123,8 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	film	film	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	The	The	X	_	_	10	dep	_	_
-13	Godfather	Godfather	X	_	_	12	flat:foreign	_	SpaceAfter=No
+12	The	The	X	_	Foreign=Yes	10	dep	_	_
+13	Godfather	Godfather	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	12	punct	_	_
 15	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -7400,7 +7400,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Stardust	Stardust	X	_	_	5	dep	_	SpaceAfter=No
+7	Stardust	Stardust	X	_	Foreign=Yes	5	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -8868,8 +8868,8 @@
 5	inspire	inspirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	film	film	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-8	Blade	Blade	X	_	_	7	dep	_	_
-9	Runner	Runner	X	_	_	8	flat:foreign	_	_
+8	Blade	Blade	X	_	Foreign=Yes	7	dep	_	_
+9	Runner	Runner	X	_	Foreign=Yes	8	flat:foreign	_	_
 10	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FQB_TREC-fr-182
@@ -9027,9 +9027,9 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-5	The	The	X	_	_	8	dep	_	_
-6	Pines	Pines	X	_	_	8	dep	_	_
-7	of	of	X	_	_	8	dep	_	_
+5	The	The	X	_	Foreign=Yes	8	dep	_	_
+6	Pines	Pines	X	_	Foreign=Yes	8	dep	_	_
+7	of	of	X	_	Foreign=Yes	8	dep	_	_
 8	Rome	Rome	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
 10	?	?	PUNCT	_	_	3	punct	_	_
@@ -9040,7 +9040,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Dubliners	Dubliners	X	_	_	3	obj	_	SpaceAfter=No
+5	Dubliners	Dubliners	X	_	Foreign=Yes	3	obj	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -9638,7 +9638,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	Vasco	Vasco	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-5	da	da	X	_	_	4	dep	_	_
+5	da	da	X	_	Foreign=Yes	4	dep	_	_
 6	Gama	Gama	PROPN	_	_	4	flat:name	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -9855,8 +9855,8 @@
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Farmer	Farmer	PROPN	_	_	3	obj	_	_
-6	's	's	X	_	_	5	dep	_	_
-7	Almanach	Almanach	X	_	_	5	dep	_	_
+6	's	's	X	_	Foreign=Yes	5	dep	_	_
+7	Almanach	Almanach	X	_	Foreign=Yes	5	dep	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FQB_TREC-fr-265
@@ -11576,7 +11576,7 @@
 4	acronyme	acronyme	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 5	anglais	anglais	ADJ	_	Gender=Masc	4	amod	_	_
 6	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	hazmat	hazmat	X	_	_	4	dep	_	SpaceAfter=No
+7	hazmat	hazmat	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	4	punct	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -12051,7 +12051,7 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	caliente	caliente	X	_	_	2	nsubj	_	SpaceAfter=No
+4	caliente	caliente	X	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	4	punct	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	anglais	anglais	NOUN	_	Gender=Masc	2	obl:mod	_	_
@@ -12189,20 +12189,20 @@
 13	s'	le/lui	PRON	_	Person=3|Reflex=Yes	14	expl:comp	_	SpaceAfter=No
 14	intitule	intituler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	The	The	X	_	_	14	xcomp	_	_
-17	Cuckoo	Cuckoo	X	_	_	16	flat:foreign	_	_
-18	's	's	X	_	_	16	flat:foreign	_	_
-19	Egg	Egg	X	_	_	16	flat:foreign	_	_
+16	The	The	X	_	Foreign=Yes	14	xcomp	_	_
+17	Cuckoo	Cuckoo	X	_	Foreign=Yes	16	flat:foreign	_	_
+18	's	's	X	_	Foreign=Yes	16	flat:foreign	_	_
+19	Egg	Egg	X	_	Foreign=Yes	16	flat:foreign	_	_
 20	:	:	PUNCT	_	_	16	punct	_	_
-21	Tracking	Tracking	X	_	_	16	flat:foreign	_	_
-22	a	a	X	_	_	16	flat:foreign	_	_
-23	Spy	Spy	X	_	_	16	flat:foreign	_	_
-24	Through	Through	X	_	_	16	flat:foreign	_	_
-25	the	the	X	_	_	16	flat:foreign	_	_
-26	Maze	Maze	X	_	_	16	flat:foreign	_	_
-27	of	of	X	_	_	16	flat:foreign	_	_
-28	Computer	Computer	X	_	_	16	flat:foreign	_	_
-29	Espionage	Espionage	X	_	_	16	flat:foreign	_	SpaceAfter=No
+21	Tracking	Tracking	X	_	Foreign=Yes	16	flat:foreign	_	_
+22	a	a	X	_	Foreign=Yes	16	flat:foreign	_	_
+23	Spy	Spy	X	_	Foreign=Yes	16	flat:foreign	_	_
+24	Through	Through	X	_	Foreign=Yes	16	flat:foreign	_	_
+25	the	the	X	_	Foreign=Yes	16	flat:foreign	_	_
+26	Maze	Maze	X	_	Foreign=Yes	16	flat:foreign	_	_
+27	of	of	X	_	Foreign=Yes	16	flat:foreign	_	_
+28	Computer	Computer	X	_	Foreign=Yes	16	flat:foreign	_	_
+29	Espionage	Espionage	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
 30	"	"	PUNCT	_	_	16	punct	_	_
 31	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -12294,13 +12294,13 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	terme	terme	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	cyberspace	cyberspace	X	_	_	5	dep	_	SpaceAfter=No
+7	cyberspace	cyberspace	X	_	Foreign=Yes	5	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	son	son	DET	_	Number=Sing|Poss=Yes	11	det	_	_
 11	roman	roman	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Neuromancer	Neuromancer	X	_	_	11	dep	_	SpaceAfter=No
+13	Neuromancer	Neuromancer	X	_	Foreign=Yes	11	dep	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	13	punct	_	_
 15	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -12455,7 +12455,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	Billy	Billy	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
-5	the	the	X	_	_	4	dep	_	_
+5	the	the	X	_	Foreign=Yes	4	dep	_	_
 6	Kid	Kid	PROPN	_	_	4	flat:name	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -12501,9 +12501,9 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	film	film	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	_
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	The	The	X	_	_	14	dep	_	_
-17	Lion	Lion	X	_	_	16	flat:foreign	_	_
-18	King	King	X	_	_	16	flat:foreign	_	SpaceAfter=No
+16	The	The	X	_	Foreign=Yes	14	dep	_	_
+17	Lion	Lion	X	_	Foreign=Yes	16	flat:foreign	_	_
+18	King	King	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
 19	"	"	PUNCT	_	_	16	punct	_	_
 20	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -12620,11 +12620,11 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	livre	livre	NOUN	_	Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	The	The	X	_	_	5	dep	_	_
-8	Grinch	Grinch	X	_	_	7	flat:foreign	_	_
-9	Who	Who	X	_	_	7	flat:foreign	_	_
-10	Stole	Stole	X	_	_	7	flat:foreign	_	_
-11	Christmas	Christmas	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	The	The	X	_	Foreign=Yes	5	dep	_	_
+8	Grinch	Grinch	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Who	Who	X	_	Foreign=Yes	7	flat:foreign	_	_
+10	Stole	Stole	X	_	Foreign=Yes	7	flat:foreign	_	_
+11	Christmas	Christmas	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	7	punct	_	_
 13	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -12637,9 +12637,9 @@
 5	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
 6	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Brave	Brave	X	_	_	6	obj	_	_
-9	New	New	X	_	_	8	flat:foreign	_	_
-10	World	World	X	_	_	8	flat:foreign	_	SpaceAfter=No
+8	Brave	Brave	X	_	Foreign=Yes	6	obj	_	_
+9	New	New	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	World	World	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 12	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -12651,8 +12651,8 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	livre	livre	NOUN	_	Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
-7	Song	Song	X	_	_	9	dep	_	_
-8	of	of	X	_	_	9	dep	_	_
+7	Song	Song	X	_	Foreign=Yes	9	dep	_	_
+8	of	of	X	_	Foreign=Yes	9	dep	_	_
 9	Solomon	Solomon	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	9	punct	_	_
 11	?	?	PUNCT	_	_	3	punct	_	_
@@ -12672,8 +12672,8 @@
 11	intitulée	intituler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	Jake	Jake	PROPN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
-14	and	and	X	_	_	13	dep	_	_
-15	the	the	X	_	_	13	dep	_	_
+14	and	and	X	_	Foreign=Yes	13	dep	_	_
+15	the	the	X	_	Foreign=Yes	13	dep	_	_
 16	Fatman	Fatman	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	13	punct	_	_
 18	?	?	PUNCT	_	_	2	punct	_	_
@@ -12693,8 +12693,8 @@
 11	intitulée	intituler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	Jake	Jake	PROPN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
-14	and	and	X	_	_	13	dep	_	_
-15	the	the	X	_	_	13	dep	_	_
+14	and	and	X	_	Foreign=Yes	13	dep	_	_
+15	the	the	X	_	Foreign=Yes	13	dep	_	_
 16	Fatman	Fatman	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	13	punct	_	_
 18	?	?	PUNCT	_	_	2	punct	_	_
@@ -12812,8 +12812,8 @@
 7	émission	émission	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 8	télévisée	télévisé	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
-10	Good	Good	X	_	_	12	dep	_	_
-11	Morning	Morning	X	_	_	12	dep	_	_
+10	Good	Good	X	_	Foreign=Yes	12	dep	_	_
+11	Morning	Morning	X	_	Foreign=Yes	12	dep	_	_
 12	America	America	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	12	punct	_	_
 14	?	?	PUNCT	_	_	2	punct	_	_
@@ -13184,9 +13184,9 @@
 11	télévisée	télévisé	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	intitulée	intituler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	Saturday	Saturday	X	_	_	12	xcomp	_	_
-15	Night	Night	X	_	_	14	flat:foreign	_	_
-16	Live	Live	X	_	_	14	flat:foreign	_	SpaceAfter=No
+14	Saturday	Saturday	X	_	Foreign=Yes	12	xcomp	_	_
+15	Night	Night	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	Live	Live	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	14	punct	_	_
 18	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -13210,8 +13210,8 @@
 4	proviennent	provenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	buffalo	buffalo	X	_	_	4	nsubj	_	_
-8	wings	wings	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	buffalo	buffalo	X	_	Foreign=Yes	4	nsubj	_	_
+8	wings	wings	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	_
 10	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -13246,8 +13246,8 @@
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	expression	expression	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	limited	limited	X	_	_	7	dep	_	_
-10	partnership	partnership	X	_	_	7	dep	_	SpaceAfter=No
+9	limited	limited	X	_	Foreign=Yes	7	dep	_	_
+10	partnership	partnership	X	_	Foreign=Yes	7	dep	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -13318,8 +13318,8 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Silent	Silent	X	_	_	5	dep	_	_
-8	Night	Night	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	Silent	Silent	X	_	Foreign=Yes	5	dep	_	_
+8	Night	Night	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	_
 10	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -13977,10 +13977,10 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	film	film	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	Silence	Silence	X	_	_	13	dep	_	_
-16	of	of	X	_	_	15	flat:foreign	_	_
-17	the	the	X	_	_	15	flat:foreign	_	_
-18	Lambs	Lambs	X	_	_	15	flat:foreign	_	SpaceAfter=No
+15	Silence	Silence	X	_	Foreign=Yes	13	dep	_	_
+16	of	of	X	_	Foreign=Yes	15	flat:foreign	_	_
+17	the	the	X	_	Foreign=Yes	15	flat:foreign	_	_
+18	Lambs	Lambs	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
 19	"	"	PUNCT	_	_	15	punct	_	_
 20	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -14075,9 +14075,9 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Boys	Boys	X	_	_	5	dep	_	_
-8	of	of	X	_	_	7	flat:foreign	_	_
-9	Summer	Summer	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	Boys	Boys	X	_	Foreign=Yes	5	dep	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Summer	Summer	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	_
 11	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -14346,9 +14346,9 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	The	The	X	_	_	3	obj	_	_
-6	Scarlett	Scarlett	X	_	_	5	flat:foreign	_	_
-7	Letter	Letter	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	The	The	X	_	Foreign=Yes	3	obj	_	_
+6	Scarlett	Scarlett	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Letter	Letter	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -14422,7 +14422,7 @@
 4	acronyme	acronyme	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 5	anglais	anglais	ADJ	_	Gender=Masc	4	amod	_	_
 6	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	sids	sids	X	_	_	4	dep	_	SpaceAfter=No
+7	sids	sids	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	4	punct	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -14440,8 +14440,8 @@
 10	émission	émission	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	culinaire	culinaire	ADJ	_	Number=Sing	10	amod	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Galloping	Galloping	X	_	_	10	dep	_	_
-14	Gourmet	Gourmet	X	_	_	13	flat:foreign	_	SpaceAfter=No
+13	Galloping	Galloping	X	_	Foreign=Yes	10	dep	_	_
+14	Gourmet	Gourmet	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
 16	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -14583,11 +14583,11 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	The	The	X	_	_	3	obj	_	_
-6	Pit	Pit	X	_	_	5	flat:foreign	_	_
-7	and	and	X	_	_	5	flat:foreign	_	_
-8	the	the	X	_	_	5	flat:foreign	_	_
-9	Pendulum	Pendulum	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	The	The	X	_	Foreign=Yes	3	obj	_	_
+6	Pit	Pit	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	and	and	X	_	Foreign=Yes	5	flat:foreign	_	_
+8	the	the	X	_	Foreign=Yes	5	flat:foreign	_	_
+9	Pendulum	Pendulum	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	5	punct	_	_
 11	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -14659,9 +14659,9 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	An	An	X	_	_	3	obj	_	_
-6	Ideal	Ideal	X	_	_	5	flat:foreign	_	_
-7	Husband	Husband	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	An	An	X	_	Foreign=Yes	3	obj	_	_
+6	Ideal	Ideal	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Husband	Husband	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -14740,10 +14740,10 @@
 5	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Dead	Dead	X	_	_	3	obl:mod	_	_
-9	Poet	Poet	X	_	_	8	flat:foreign	_	_
-10	's	's	X	_	_	8	flat:foreign	_	_
-11	Society	Society	X	_	_	8	flat:foreign	_	SpaceAfter=No
+8	Dead	Dead	X	_	Foreign=Yes	3	obl:mod	_	_
+9	Poet	Poet	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	's	's	X	_	Foreign=Yes	8	flat:foreign	_	_
+11	Society	Society	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	8	punct	_	_
 13	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -14767,10 +14767,10 @@
 4	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	The	The	X	_	_	4	obl:mod	_	_
-8	Lion	Lion	X	_	_	7	flat:foreign	_	_
-9	in	in	X	_	_	7	flat:foreign	_	_
-10	Winter	Winter	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	The	The	X	_	Foreign=Yes	4	obl:mod	_	_
+8	Lion	Lion	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	in	in	X	_	Foreign=Yes	7	flat:foreign	_	_
+10	Winter	Winter	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -14865,7 +14865,7 @@
 3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Kings	Kings	PROPN	_	_	3	nsubj	_	_
-6	'	'	X	_	_	5	dep	_	SpaceAfter=No
+6	'	'	X	_	Foreign=Yes	5	dep	_	SpaceAfter=No
 7	Canyon	Canyon	PROPN	_	_	5	flat:name	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -15501,7 +15501,7 @@
 4	expression	expression	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
 5	anglaise	anglais	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	hazmat	hazmat	X	_	_	4	dep	_	SpaceAfter=No
+7	hazmat	hazmat	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	4	punct	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -15516,7 +15516,7 @@
 7	expression	expression	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	anglaise	anglais	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-10	hazmat	hazmat	X	_	_	7	dep	_	SpaceAfter=No
+10	hazmat	hazmat	X	_	Foreign=Yes	7	dep	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -17491,7 +17491,7 @@
 2	traduit	traduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	caliente	caliente	X	_	_	2	obj	_	SpaceAfter=No
+5	caliente	caliente	X	_	Foreign=Yes	2	obj	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	anglais	anglais	NOUN	_	Gender=Masc	2	obl:mod	_	_
@@ -17506,7 +17506,7 @@
 5	anglaise	anglais	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	caliente	caliente	X	_	_	4	dep	_	SpaceAfter=No
+8	caliente	caliente	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
 10	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -17518,7 +17518,7 @@
 4	signification	signification	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	caliente	caliente	X	_	_	4	dep	_	SpaceAfter=No
+7	caliente	caliente	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	anglais	anglais	NOUN	_	Gender=Masc	1	obl:mod	_	_
@@ -17536,7 +17536,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	mot	mot	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	caliente	caliente	X	_	_	8	dep	_	SpaceAfter=No
+10	caliente	caliente	X	_	Foreign=Yes	8	dep	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 12	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -18547,9 +18547,9 @@
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	7	det	_	_
 7	réplique	réplique	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Can	Can	X	_	_	7	appos	_	_
-10	we	we	X	_	_	9	flat:foreign	_	_
-11	talk	talk	X	_	_	9	flat:foreign	_	SpaceAfter=No
+9	Can	Can	X	_	Foreign=Yes	7	appos	_	_
+10	we	we	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	talk	talk	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	9	punct	_	_
 13	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -18814,9 +18814,9 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	musique	musique	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	West	West	X	_	_	7	dep	_	_
-10	Side	Side	X	_	_	9	flat:foreign	_	_
-11	Story	Story	X	_	_	9	flat:foreign	_	_
+9	West	West	X	_	Foreign=Yes	7	dep	_	_
+10	Side	Side	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Story	Story	X	_	Foreign=Yes	9	flat:foreign	_	_
 12	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FQB_TREC-fr-968
@@ -19294,7 +19294,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	dendrobate	dendrobate	NOUN	_	_	3	nsubj	_	_
-7	auratus	auratus	X	_	_	6	dep	_	_
+7	auratus	auratus	X	_	Foreign=Yes	6	dep	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FQB_TREC-fr-1005
@@ -19629,8 +19629,8 @@
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	hymne	hymne	NOUN	_	Number=Sing	3	obj	_	_
-6	Amazing	Amazing	X	_	_	5	dep	_	_
-7	Grace	Grace	X	_	_	6	flat:foreign	_	_
+6	Amazing	Amazing	X	_	Foreign=Yes	5	dep	_	_
+7	Grace	Grace	X	_	Foreign=Yes	6	flat:foreign	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FQB_TREC-fr-1032
@@ -19761,9 +19761,9 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Phi	Phi	X	_	_	2	nsubj	_	_
-5	bêta	bêta	X	_	_	4	flat:foreign	_	_
-6	kappa	kappa	X	_	_	4	flat:foreign	_	SpaceAfter=No
+4	Phi	Phi	X	_	Foreign=Yes	2	nsubj	_	_
+5	bêta	bêta	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	kappa	kappa	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	4	punct	_	_
 8	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -20099,10 +20099,10 @@
 5	pour	pour	ADP	_	_	6	case	_	_
 6	devise	devise	NOUN	_	Gender=Fem|Number=Sing	4	xcomp	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Live	Live	X	_	_	4	obj	_	_
-9	Free	Free	X	_	_	8	flat:foreign	_	_
-10	or	or	X	_	_	8	flat:foreign	_	_
-11	Die	Die	X	_	_	8	flat:foreign	_	SpaceAfter=No
+8	Live	Live	X	_	Foreign=Yes	4	obj	_	_
+9	Free	Free	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	or	or	X	_	Foreign=Yes	8	flat:foreign	_	_
+11	Die	Die	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	8	punct	_	_
 13	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -20369,8 +20369,8 @@
 7	cerceau	cerceau	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	hula	hula	X	_	_	8	xcomp	_	_
-11	hoop	hoop	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	hula	hula	X	_	Foreign=Yes	8	xcomp	_	_
+11	hoop	hoop	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	10	punct	_	_
 13	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -20441,7 +20441,7 @@
 3	inventé	inventer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	slinky	slinky	X	_	_	3	obj	_	SpaceAfter=No
+6	slinky	slinky	X	_	Foreign=Yes	3	obj	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	6	punct	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -22298,9 +22298,9 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	The	The	X	_	_	3	obj	_	_
-6	Devine	Devine	X	_	_	5	flat:foreign	_	_
-7	Comedy	Comedy	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	The	The	X	_	Foreign=Yes	3	obj	_	_
+6	Devine	Devine	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Comedy	Comedy	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -22334,7 +22334,7 @@
 2	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-t-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	love	love	X	_	_	2	xcomp	_	SpaceAfter=No
+5	love	love	X	_	Foreign=Yes	2	xcomp	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	score	score	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -22356,9 +22356,9 @@
 7	dans	dans	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Wizard	Wizard	X	_	_	2	obl:mod	_	_
-11	of	of	X	_	_	10	flat:foreign	_	_
-12	Oz	Oz	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	Wizard	Wizard	X	_	Foreign=Yes	2	obl:mod	_	_
+11	of	of	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	Oz	Oz	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	10	punct	_	_
 14	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -22377,7 +22377,7 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	ciao	ciao	X	_	_	2	nsubj	_	SpaceAfter=No
+4	ciao	ciao	X	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	4	punct	_	_
 6	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -22979,8 +22979,8 @@
 5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Boston	Boston	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-8	Tea	Tea	X	_	_	7	dep	_	_
-9	Party	Party	X	_	_	7	dep	_	_
+8	Tea	Tea	X	_	Foreign=Yes	7	dep	_	_
+9	Party	Party	X	_	Foreign=Yes	7	dep	_	_
 10	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FQB_TREC-fr-1303
@@ -23003,7 +23003,7 @@
 6	dans	dans	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	émission	émission	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
-9	Laugh-In	Laugh-In	X	_	_	8	dep	_	_
+9	Laugh-In	Laugh-In	X	_	Foreign=Yes	8	dep	_	_
 10	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	Rions	rire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	dep	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	9	punct	_	_
@@ -23254,9 +23254,9 @@
 4	que	que	SCONJ	_	_	7	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	bangers	bangers	X	_	_	1	dislocated	_	_
-8	and	and	X	_	_	7	flat:foreign	_	_
-9	mash	mash	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	bangers	bangers	X	_	Foreign=Yes	1	dislocated	_	_
+8	and	and	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	mash	mash	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	_
 11	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -23439,7 +23439,7 @@
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	film	film	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	Gypsy	Gypsy	X	_	_	11	dep	_	_
+12	Gypsy	Gypsy	X	_	Foreign=Yes	11	dep	_	_
 13	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = FQB_TREC-fr-1339
@@ -23977,10 +23977,10 @@
 8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	Gateway	Gateway	X	_	_	8	dep	_	_
-12	to	to	X	_	_	11	flat:foreign	_	_
-13	the	the	X	_	_	11	flat:foreign	_	_
-14	West	West	X	_	_	11	flat:foreign	_	SpaceAfter=No
+11	Gateway	Gateway	X	_	Foreign=Yes	8	dep	_	_
+12	to	to	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	the	the	X	_	Foreign=Yes	11	flat:foreign	_	_
+14	West	West	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	11	punct	_	_
 16	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -24352,9 +24352,9 @@
 1	Quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	2	det	_	_
 2	chanteur	chanteur	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	rock	rock	X	_	_	2	dep	_	_
-5	'n	'n	X	_	_	4	flat:foreign	_	_
-6	roll	roll	X	_	_	4	flat:foreign	_	_
+4	rock	rock	X	_	Foreign=Yes	2	dep	_	_
+5	'n	'n	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	roll	roll	X	_	Foreign=Yes	4	flat:foreign	_	_
 7	démodé	démodé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
 9	aussi	aussi	ADV	_	_	10	advmod	_	_
@@ -24415,7 +24415,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	China	China	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-11	's	's	X	_	_	10	dep	_	_
+11	's	's	X	_	Foreign=Yes	10	dep	_	_
 12	Sorrow	Sorrow	PROPN	_	_	10	flat:name	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	10	punct	_	_
 14	?	?	PUNCT	_	_	4	punct	_	_
@@ -24457,7 +24457,7 @@
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	Wendy	Wendy	PROPN	_	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
-5	's	's	X	_	_	4	dep	_	_
+5	's	's	X	_	Foreign=Yes	4	dep	_	_
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FQB_TREC-fr-1417
@@ -24670,9 +24670,9 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	dans	dans	ADP	_	_	7	case	_	_
-7	The	The	X	_	_	3	obl:mod	_	_
-8	Poseidon	Poseidon	X	_	_	7	flat:foreign	_	_
-9	Adventure	Adventure	X	_	_	7	flat:foreign	_	_
+7	The	The	X	_	Foreign=Yes	3	obl:mod	_	_
+8	Poseidon	Poseidon	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Adventure	Adventure	X	_	Foreign=Yes	7	flat:foreign	_	_
 10	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FQB_TREC-fr-1432
@@ -24681,7 +24681,7 @@
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Devil	Devil	PROPN	_	_	2	nsubj	_	_
-5	's	's	X	_	_	4	dep	_	_
+5	's	's	X	_	Foreign=Yes	4	dep	_	_
 6	Tower	Tower	PROPN	_	_	4	flat:name	_	_
 7	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -25111,8 +25111,8 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	détective	détective	NOUN	_	Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	6	case	_	_
-6	Diagnosis	Diagnosis	X	_	_	4	obl:mod	_	_
-7	Murder	Murder	X	_	_	6	flat:foreign	_	_
+6	Diagnosis	Diagnosis	X	_	Foreign=Yes	4	obl:mod	_	_
+7	Murder	Murder	X	_	Foreign=Yes	6	flat:foreign	_	_
 8	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FQB_TREC-fr-1465
@@ -25291,10 +25291,10 @@
 7	héroïne	héroïne	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Gone	Gone	X	_	_	1	obl:mod	_	_
-11	with	with	X	_	_	10	flat:foreign	_	_
-12	the	the	X	_	_	10	flat:foreign	_	_
-13	Wind	Wind	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	Gone	Gone	X	_	Foreign=Yes	1	obl:mod	_	_
+11	with	with	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	the	the	X	_	Foreign=Yes	10	flat:foreign	_	_
+13	Wind	Wind	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	10	punct	_	_
 15	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -25304,8 +25304,8 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	The	The	X	_	_	3	obj	_	_
-6	Messiah	Messiah	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	The	The	X	_	Foreign=Yes	3	obj	_	_
+6	Messiah	Messiah	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	5	punct	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -25503,19 +25503,19 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	East	East	X	_	_	3	obj	_	_
-6	is	is	X	_	_	5	flat:foreign	_	_
-7	east	east	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	East	East	X	_	Foreign=Yes	3	obj	_	_
+6	is	is	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	east	east	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	west	west	X	_	_	5	flat:foreign	_	_
-10	is	is	X	_	_	5	flat:foreign	_	_
-11	west	west	X	_	_	5	flat:foreign	_	_
-12	and	and	X	_	_	5	flat:foreign	_	_
-13	never	never	X	_	_	5	flat:foreign	_	_
-14	the	the	X	_	_	5	flat:foreign	_	_
-15	twain	twain	X	_	_	5	flat:foreign	_	_
-16	shall	shall	X	_	_	5	flat:foreign	_	_
-17	meet	meet	X	_	_	5	flat:foreign	_	SpaceAfter=No
+9	west	west	X	_	Foreign=Yes	5	flat:foreign	_	_
+10	is	is	X	_	Foreign=Yes	5	flat:foreign	_	_
+11	west	west	X	_	Foreign=Yes	5	flat:foreign	_	_
+12	and	and	X	_	Foreign=Yes	5	flat:foreign	_	_
+13	never	never	X	_	Foreign=Yes	5	flat:foreign	_	_
+14	the	the	X	_	Foreign=Yes	5	flat:foreign	_	_
+15	twain	twain	X	_	Foreign=Yes	5	flat:foreign	_	_
+16	shall	shall	X	_	Foreign=Yes	5	flat:foreign	_	_
+17	meet	meet	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	5	punct	_	_
 19	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -25554,9 +25554,9 @@
 7	de	de	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Star	Star	X	_	_	4	nmod	_	_
-11	Spangled	Spangled	X	_	_	10	flat:foreign	_	_
-12	Banner	Banner	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	Star	Star	X	_	Foreign=Yes	4	nmod	_	_
+11	Spangled	Spangled	X	_	Foreign=Yes	10	flat:foreign	_	_
+12	Banner	Banner	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	10	punct	_	_
 14	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -25734,14 +25734,14 @@
 3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	:	:	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Music	Music	X	_	_	3	obj	_	_
-7	hath	hath	X	_	_	6	flat:foreign	_	_
-8	charm	charm	X	_	_	6	flat:foreign	_	_
-9	to	to	X	_	_	6	flat:foreign	_	_
-10	soothe	soothe	X	_	_	6	flat:foreign	_	_
-11	the	the	X	_	_	6	flat:foreign	_	_
-12	savage	savage	X	_	_	6	flat:foreign	_	_
-13	beast	beast	X	_	_	6	flat:foreign	_	SpaceAfter=No
+6	Music	Music	X	_	Foreign=Yes	3	obj	_	_
+7	hath	hath	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	charm	charm	X	_	Foreign=Yes	6	flat:foreign	_	_
+9	to	to	X	_	Foreign=Yes	6	flat:foreign	_	_
+10	soothe	soothe	X	_	Foreign=Yes	6	flat:foreign	_	_
+11	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+12	savage	savage	X	_	Foreign=Yes	6	flat:foreign	_	_
+13	beast	beast	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	6	punct	_	_
 15	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -26025,8 +26025,8 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	film	film	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Fail	Fail	X	_	_	5	dep	_	_
-8	Safe	Safe	X	_	_	7	flat:foreign	_	SpaceAfter=No
+7	Fail	Fail	X	_	Foreign=Yes	5	dep	_	_
+8	Safe	Safe	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	7	punct	_	_
 10	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -26050,7 +26050,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	peint	peindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Sunflowers	Sunflowers	X	_	_	3	obj	_	SpaceAfter=No
+5	Sunflowers	Sunflowers	X	_	Foreign=Yes	3	obj	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -26193,8 +26193,8 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	Ole	Ole	X	_	_	8	dep	_	_
-11	Yeller	Yeller	X	_	_	10	flat:foreign	_	SpaceAfter=No
+10	Ole	Ole	X	_	Foreign=Yes	8	dep	_	_
+11	Yeller	Yeller	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	10	punct	_	_
 13	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -26574,8 +26574,8 @@
 # text = Quand "The Simpsons" ont-ils été diffusés pour la première fois à la télévision ?
 1	Quand	quand	ADV	_	PronType=Int	9	advmod	_	_
 2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	The	The	X	_	_	9	nsubj:pass	_	_
-4	Simpsons	Simpsons	X	_	_	3	flat:foreign	_	SpaceAfter=No
+3	The	The	X	_	Foreign=Yes	9	nsubj:pass	_	_
+4	Simpsons	Simpsons	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	3	punct	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
 7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	9	expl:subj	_	_
@@ -26629,14 +26629,14 @@
 8	vers	ver	NOUN	_	_	6	nsubj	_	_
 9	:	:	PUNCT	_	_	8	punct	_	_
 10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	the	the	X	_	_	8	dep	_	_
-12	best	best	X	_	_	11	flat:foreign	_	_
-13	laid	laid	X	_	_	11	flat:foreign	_	_
-14	plans	plans	X	_	_	11	flat:foreign	_	_
-15	of	of	X	_	_	11	flat:foreign	_	_
-16	mice	mice	X	_	_	11	flat:foreign	_	_
-17	and	and	X	_	_	11	flat:foreign	_	_
-18	men	men	X	_	_	11	flat:foreign	_	SpaceAfter=No
+11	the	the	X	_	Foreign=Yes	8	dep	_	_
+12	best	best	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	laid	laid	X	_	Foreign=Yes	11	flat:foreign	_	_
+14	plans	plans	X	_	Foreign=Yes	11	flat:foreign	_	_
+15	of	of	X	_	Foreign=Yes	11	flat:foreign	_	_
+16	mice	mice	X	_	Foreign=Yes	11	flat:foreign	_	_
+17	and	and	X	_	Foreign=Yes	11	flat:foreign	_	_
+18	men	men	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
 19	"	"	PUNCT	_	_	11	punct	_	_
 20	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -27228,7 +27228,7 @@
 13	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Macy	Macy	PROPN	_	Number=Sing	8	nmod	_	_
-16	's	's	X	_	_	15	dep	_	_
+16	's	's	X	_	Foreign=Yes	15	dep	_	_
 17	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FQB_TREC-fr-1621
@@ -27684,8 +27684,8 @@
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-on	il	PRON	_	Number=Sing|Person=3	2	nsubj	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	French	French	X	_	_	2	obj	_	_
-6	fries	fries	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	French	French	X	_	Foreign=Yes	2	obj	_	_
+6	fries	fries	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	5	punct	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	français	français	NOUN	_	Gender=Masc	2	obl:mod	_	_
@@ -27783,9 +27783,9 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	E	E	X	_	_	2	nsubj	_	_
-5	pluribus	pluribus	X	_	_	4	flat:foreign	_	_
-6	unum	unum	X	_	_	4	flat:foreign	_	SpaceAfter=No
+4	E	E	X	_	Foreign=Yes	2	nsubj	_	_
+5	pluribus	pluribus	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	unum	unum	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	4	punct	_	_
 8	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -27979,8 +27979,8 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Happy	Happy	X	_	_	6	dep	_	_
-9	Together	Together	X	_	_	8	flat:foreign	_	SpaceAfter=No
+8	Happy	Happy	X	_	Foreign=Yes	6	dep	_	_
+9	Together	Together	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	8	punct	_	_
 11	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -28154,11 +28154,11 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	livre	livre	NOUN	_	Number=Sing	4	nsubj	_	_
 8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	Charge	Charge	X	_	_	7	dep	_	_
-10	of	of	X	_	_	9	flat:foreign	_	_
-11	the	the	X	_	_	9	flat:foreign	_	_
-12	Light	Light	X	_	_	9	flat:foreign	_	_
-13	Brigade	Brigade	X	_	_	9	flat:foreign	_	SpaceAfter=No
+9	Charge	Charge	X	_	Foreign=Yes	7	dep	_	_
+10	of	of	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	the	the	X	_	Foreign=Yes	9	flat:foreign	_	_
+12	Light	Light	X	_	Foreign=Yes	9	flat:foreign	_	_
+13	Brigade	Brigade	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	9	punct	_	_
 15	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -28177,9 +28177,9 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	film	film	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Somewhere	Somewhere	X	_	_	3	dep	_	_
-6	in	in	X	_	_	5	flat:foreign	_	_
-7	Time	Time	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	Somewhere	Somewhere	X	_	Foreign=Yes	3	dep	_	_
+6	in	in	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Time	Time	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	SpaceAfter=No
 10	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	expl:subj	_	_
@@ -28319,10 +28319,10 @@
 4	pour	pour	ADP	_	_	5	case	_	_
 5	slogan	slogan	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
 6	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-7	Quality	Quality	X	_	_	10	dep	_	_
-8	is	is	X	_	_	10	dep	_	_
-9	job	job	X	_	_	10	dep	_	_
-10	1	1	NUM	_	NumType=Card	3	obj	_	SpaceAfter=No
+7	Quality	Quality	X	_	Foreign=Yes	10	dep	_	_
+8	is	is	X	_	Foreign=Yes	10	dep	_	_
+9	job	job	X	_	Foreign=Yes	10	dep	_	_
+10	1	1	NUM	_	Foreign=Yes|NumType=Card	3	obj	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	10	punct	_	_
 12	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -28336,7 +28336,7 @@
 6	1963	1963	NUM	_	NumType=Card	4	obl:mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	livre	livre	NOUN	_	Number=Sing	4	nsubj	_	_
-9	Rascal	Rascal	X	_	_	8	dep	_	_
+9	Rascal	Rascal	X	_	Foreign=Yes	8	dep	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Sterling	Sterling	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	North	North	PROPN	_	_	11	flat:name	_	_
@@ -28767,8 +28767,8 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	président	président	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	pro	pro	X	_	_	4	nmod	_	_
-6	tempore	tempore	X	_	_	5	flat:foreign	_	_
+5	pro	pro	X	_	Foreign=Yes	4	nmod	_	_
+6	tempore	tempore	X	_	Foreign=Yes	5	flat:foreign	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -29107,10 +29107,10 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Fiddler	Fiddler	X	_	_	3	obj	_	_
-6	on	on	X	_	_	5	flat:foreign	_	_
-7	the	the	X	_	_	5	flat:foreign	_	_
-8	Roof	Roof	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	Fiddler	Fiddler	X	_	Foreign=Yes	3	obj	_	_
+6	on	on	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	the	the	X	_	Foreign=Yes	5	flat:foreign	_	_
+8	Roof	Roof	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	5	punct	_	_
 10	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -29336,8 +29336,8 @@
 6	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl:subj	_	_
 7	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	dans	dans	ADP	_	_	9	case	_	_
-9	American	American	X	_	_	7	obl:mod	_	_
-10	Beauty	Beauty	X	_	_	9	flat:foreign	_	_
+9	American	American	X	_	Foreign=Yes	7	obl:mod	_	_
+10	Beauty	Beauty	X	_	Foreign=Yes	9	flat:foreign	_	_
 11	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = FQB_TREC-fr-1778
@@ -30239,8 +30239,8 @@
 12	Poe	Poe	PROPN	_	_	10	flat:name	_	_
 13	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	The	The	X	_	_	13	xcomp	_	_
-16	Raven	Raven	X	_	_	15	flat:foreign	_	SpaceAfter=No
+15	The	The	X	_	Foreign=Yes	13	xcomp	_	_
+16	Raven	Raven	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	15	punct	_	_
 18	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -30491,10 +30491,10 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	The	The	X	_	_	9	dep	_	_
-12	Story	Story	X	_	_	11	flat:foreign	_	_
-13	is	is	X	_	_	11	flat:foreign	_	_
-14	Me	Me	X	_	_	11	flat:foreign	_	SpaceAfter=No
+11	The	The	X	_	Foreign=Yes	9	dep	_	_
+12	Story	Story	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	is	is	X	_	Foreign=Yes	11	flat:foreign	_	_
+14	Me	Me	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	11	punct	_	_
 16	?	?	PUNCT	_	_	7	punct	_	_
 
@@ -30525,12 +30525,12 @@
 3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	:	:	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	I	I	X	_	_	3	obj	_	_
-7	have	have	X	_	_	6	flat:foreign	_	_
-8	not	not	X	_	_	6	flat:foreign	_	_
-9	begun	begun	X	_	_	6	flat:foreign	_	_
-10	to	to	X	_	_	6	flat:foreign	_	_
-11	fight	fight	X	_	_	6	flat:foreign	_	_
+6	I	I	X	_	Foreign=Yes	3	obj	_	_
+7	have	have	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	not	not	X	_	Foreign=Yes	6	flat:foreign	_	_
+9	begun	begun	X	_	Foreign=Yes	6	flat:foreign	_	_
+10	to	to	X	_	Foreign=Yes	6	flat:foreign	_	_
+11	fight	fight	X	_	Foreign=Yes	6	flat:foreign	_	_
 12	!	!	PUNCT	_	_	6	punct	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	6	punct	_	_
 14	?	?	PUNCT	_	_	3	punct	_	_
@@ -30890,10 +30890,10 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	poème	poème	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-9	The	The	X	_	_	13	dep	_	_
-10	Midnight	Midnight	X	_	_	13	dep	_	_
-11	Ride	Ride	X	_	_	13	dep	_	_
-12	of	of	X	_	_	13	dep	_	_
+9	The	The	X	_	Foreign=Yes	13	dep	_	_
+10	Midnight	Midnight	X	_	Foreign=Yes	13	dep	_	_
+11	Ride	Ride	X	_	Foreign=Yes	13	dep	_	_
+12	of	of	X	_	Foreign=Yes	13	dep	_	_
 13	Paul	Paul	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 14	Revere	Revere	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
