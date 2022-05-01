@@ -1,6 +1,6 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = FQB_CAF-1
 # text = Qu'est-ce qu'une aide au logement ?
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	_	1	nsubj	_	_
