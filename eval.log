@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_French-FQB:
-commit a7983afcccb343cd5fca597ab996a9e12f61d240
+commit 87515bf80140ab5a7d4302f1bb3aa5a55f5dbbb7
+Merge: d39c15d 0c5566d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:09:57 2021 +0200
 Size: counted 23901 of 23901 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34784059813268.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 16023 out of 23901 total words have one or more features.
+Features: 16266 out of 23901 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
