@@ -89,7 +89,7 @@
     <dep name="det">3808</dep>
     <dep name="dislocated">139</dep>
     <dep name="expl:comp">176</dep>
-    <dep name="expl:subj">331</dep>
+    <dep name="expl:subj">333</dep>
     <dep name="fixed">163</dep>
     <dep name="flat:foreign">131</dep>
     <dep name="flat:name">581</dep>
@@ -97,7 +97,7 @@
     <dep name="iobj">9</dep>
     <dep name="mark">297</dep>
     <dep name="nmod">1848</dep>
-    <dep name="nsubj">2163</dep>
+    <dep name="nsubj">2161</dep>
     <dep name="nsubj:caus">1</dep>
     <dep name="nsubj:pass">240</dep>
     <dep name="nummod">49</dep>
