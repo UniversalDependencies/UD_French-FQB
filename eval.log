@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
 Evaluating the following revision of UD_French-FQB:
-commit 87515bf80140ab5a7d4302f1bb3aa5a55f5dbbb7
-Merge: d39c15d 0c5566d
+commit 53b2effbf0c224d95f12b2ab861055e8e257cf75
+Merge: 5234b24 974792f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 23901 of 23901 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34784059813268.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1165
-Udapi: found 1165 bugs.
+               TOTAL       1163
+Udapi: found 1163 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23901 words.
 Genres: found 2 out of 17 known.
 validate.py --lang fr --max-err=10 UD_French-FQB/fr_fqb-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.459472023961743) = 0.11781333947737
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.512572695703109) = 0.157714675600957
+(weight=0.307692307692308) * (score{udapi}=0.513409480774863) = 0.157972147930727
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.532905211279052) * (availability=1) * (validity=1) = 0.532905211279052
+(TOTAL score=0.533162683608823) * (availability=1) * (validity=1) = 0.533162683608823
 STARS = 2.5
-UD_French-FQB	0.532905211279052	2.5
+UD_French-FQB	0.533162683608823	2.5
