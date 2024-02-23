@@ -9557,7 +9557,7 @@
 
 # sent_id = FQB_TREC-fr-240
 # text = Il y a combien d'années que le vaisseau Titanic a coulé ?
-1	Il	il_y_a	PRON	_	ExtPos=V|Mood=Ind	0	root	_	_
+1	Il	il_y_a	PRON	_	ExtPos=ADP|Mood=Ind	0	root	_	_
 2	y	_	PRON	_	_	1	fixed	_	_
 3	a	_	VERB	_	Mood=Ind|VerbForm=Fin	1	fixed	_	_
 4	combien	combien	ADV	_	PronType=Int	1	obj	_	_
