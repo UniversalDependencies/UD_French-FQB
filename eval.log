@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_French-FQB:
-commit bfff519ca09c08a8ddc6c3c5a5f23412d28baf93
+commit 7b9bda9f65546a3ebe943fabf8c541d9709dcf22
+Merge: 5c44efb ada67b6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:14:33 2024 +0200
 Size: counted 23899 of 23899 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.34767323411584.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,33 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1161
-Udapi: found 1161 bugs.
+               TOTAL       1159
+Udapi: found 1159 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23899 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-FQB/fr_fqb-ud-test.conllu
+[Line 4836 Sent FQB_Impots-49 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 9217 Sent FQB_TREC-fr-208 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'plus d'' does not have the 'ExtPos' feature
+[Line 9817 Sent FQB_TREC-fr-261 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 11269 Sent FQB_TREC-fr-385 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 16108 Sent FQB_TREC-fr-755 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 16772 Sent FQB_TREC-fr-808 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 16784 Sent FQB_TREC-fr-809 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 17193 Sent FQB_TREC-fr-840 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+[Line 17213 Sent FQB_TREC-fr-841 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'plus d'' does not have the 'ExtPos' feature
+[Line 19162 Sent FQB_TREC-fr-993 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'plus de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 17
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.459459909750247) = 0.117810233269294
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.514205615297711) = 0.158217112399296
+(weight=0.307692307692308) * (score{udapi}=0.515042470396251) = 0.15847460627577
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.533404541869315) * (availability=1) * (validity=1) = 0.533404541869315
+(TOTAL score=0.533159270537142) * (availability=1) * (validity=1) = 0.533159270537142
 STARS = 2.5
-UD_French-FQB	0.533404541869315	2.5
+UD_French-FQB	0.533159270537142	2.5
