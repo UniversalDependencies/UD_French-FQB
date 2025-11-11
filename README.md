@@ -58,6 +58,7 @@ Note that the TREC domain questions are a translation of the corresponding quest
 Data available since: UD v2.4
 License: LGPL-LR
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
