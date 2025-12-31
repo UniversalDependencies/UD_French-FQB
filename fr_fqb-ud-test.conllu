@@ -2317,7 +2317,7 @@
 7	station	station	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	métro	métro	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	où	où	PRON	_	PronType=Rel	12	iobj	_	_
+10	où	où	ADV	_	PronType=Rel	12	iobj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 13	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
@@ -2999,7 +2999,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	mois	mois	NOUN	_	Gender=Masc	1	nsubj	_	_
-5	où	où	PRON	_	PronType=Rel	7	iobj	_	_
+5	où	où	ADV	_	PronType=Rel	7	iobj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 8	en	en	ADP	_	_	9	case	_	_
