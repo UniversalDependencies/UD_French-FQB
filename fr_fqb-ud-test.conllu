@@ -899,7 +899,7 @@
 3	prisonniers	prisonnier	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 4	américains	américain	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	libérés	libérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 9	par	par	ADP	_	_	11	case	_	_
@@ -1456,7 +1456,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	purussaurus	purussauru	NOUN	_	_	4	nsubj	_	_
 4	vivaient	vivre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
+5	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
 6	avant	avant	ADP	_	_	8	case	_	_
 7	leur	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	extinction	extinction	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
@@ -1587,7 +1587,7 @@
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	Shapiro	Shapiro	PROPN	_	_	6	conj	_	_
 9	travaillent	travailler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+10	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 11	?	?	PUNCT	_	_	9	punct	_	_
 
 # sent_id = FQB_CLEF03-69
@@ -2576,7 +2576,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Raiders	Raiders	PROPN	_	_	8	nsubj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	SpaceAfter=No
-7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+7	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 8	quitté	quitter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	Oakland	Oakland	PROPN	_	_	8	obj	_	_
 10	?	?	PUNCT	_	_	8	punct	_	_
@@ -3060,7 +3060,7 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Serbes	serbe	NOUN	_	Number=Plur	10	nsubj	_	_
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
+9	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	lancées	lancer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 11	sur	sur	ADP	_	_	12	case	_	_
 12	Sarajevo	Sarajevo	PROPN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
@@ -3581,7 +3581,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	réponses	réponse	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-4	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
+4	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
 5	confidentielles	confidentiel	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -3870,7 +3870,7 @@
 # sent_id = FQB_INSEE-26
 # text = Sont-ils payants ?
 1	Sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
-2	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	payants	payant	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 4	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -4528,7 +4528,7 @@
 6	mes	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 7	enfants	enfant	NOUN	_	Number=Plur	4	nmod	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
+9	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	déductibles	déductible	ADJ	_	Number=Plur	0	root	_	_
 11	?	?	PUNCT	_	_	10	punct	_	_
 
@@ -5752,7 +5752,7 @@
 3	codes	codes	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 4	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 8	reconnus	reconnaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
@@ -6210,7 +6210,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Corée	Corée	PROPN	_	Gender=Fem|Number=Sing	3	conj	_	_
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
-8	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+8	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 9	entamé	entamer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	relations	relation	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
@@ -8061,7 +8061,7 @@
 7	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	obl:mod	_	_
 8	l'on	l'on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 9	sème	semer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
-10	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+10	certaines	certains	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
 11	plantes	plante	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
 12	dans	dans	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -8081,7 +8081,7 @@
 26	métaux	métal	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28	qu'	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-29	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nsubj:pass	_	_
+29	elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nsubj:pass	_	_
 30	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
 31	récoltées	récolter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	conj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	24	punct	_	_
@@ -8200,7 +8200,7 @@
 6	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	SpaceAfter=No
-9	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
+9	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	engagées	engager	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 11	à	à	ADP	_	_	12	mark	_	_
 12	aider	aider	VERB	_	VerbForm=Inf	10	xcomp	_	_
@@ -8557,7 +8557,7 @@
 3	automobiles	automobile	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 4	électriques	électrique	ADJ	_	Number=Plur	3	amod	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
-6	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+6	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 7	moins	moins	ADV	_	_	8	advmod	_	_
 8	efficaces	efficace	ADJ	_	Number=Plur	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -8575,7 +8575,7 @@
 3	révolutionnaires	révolutionnaire	NOUN	_	Number=Plur	7	nsubj	_	_
 4	français	français	ADJ	_	Gender=Masc	3	amod	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	assaut	assaut	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
@@ -9784,7 +9784,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	homards	homard	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 4	aiment	aimer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
+5	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
 6	vivre	vivre	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -10393,7 +10393,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Forty-Niners	Forty-Niners	PROPN	_	_	8	nsubj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	SpaceAfter=No
-7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+7	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 8	gagnés	gagner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -10437,7 +10437,7 @@
 3	autruches	autruche	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
 5	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
+6	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 8	voler	voler	VERB	_	VerbForm=Inf	5	xcomp	_	_
 9	?	?	PUNCT	_	_	5	punct	_	_
@@ -11713,7 +11713,7 @@
 8	Charles	Charles	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	SpaceAfter=No
-11	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	_
+11	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	_
 12	mariés	marier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 13	?	?	PUNCT	_	_	12	punct	_	_
 
@@ -14170,7 +14170,7 @@
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	Wakefield	Wakefield	PROPN	_	_	4	conj	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
-8	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+8	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 9	connus	connaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
 
@@ -15686,7 +15686,7 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	Gamble	Gamble	PROPN	_	_	2	conj	_	_
 5	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
 7	leurs	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
 8	quartiers	quartier	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 9	généraux	général	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -15726,7 +15726,7 @@
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	Gamble	Gamble	PROPN	_	_	5	conj	_	_
 8	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+9	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 10	leur	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	siège	siège	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 12	social	social	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
@@ -15739,7 +15739,7 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	Gamble	Gamble	PROPN	_	_	2	conj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
 7	basés	baser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -17174,7 +17174,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	gens	gens	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	volent	voler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	_
+13	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	_
 14	?	?	PUNCT	_	_	12	punct	_	_
 
 # sent_id = FQB_TREC-fr-840
@@ -17887,7 +17887,7 @@
 4	Black	Black	PROPN	_	_	9	nsubj:pass	_	_
 5	Hills	Hills	PROPN	_	_	4	flat:name	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
-7	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+7	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 8	surtout	surtout	ADV	_	_	9	advmod	_	_
 9	connues	connaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
@@ -19262,7 +19262,7 @@
 5	William	William	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	Shakespeare	Shakespeare	PROPN	_	_	5	flat:name	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
-8	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+8	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 9	nés	naître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
 
@@ -19873,7 +19873,7 @@
 6	condamnés	condamné	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 7	britanniques	britannique	ADJ	_	Number=Plur	6	amod	_	_
 8	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
+9	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -20032,7 +20032,7 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	Milwaukee	Milwaukee	PROPN	_	_	5	nmod	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
+9	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	devenus	devenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Braves	Braves	PROPN	_	_	10	xcomp	_	_
@@ -20532,7 +20532,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	États-Unis	États-Unis	PROPN	_	_	8	nsubj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	SpaceAfter=No
-7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+7	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 8	aboli	abolir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	conscription	conscription	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
@@ -20782,7 +20782,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	États-Unis	États-Unis	PROPN	_	_	8	nsubj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	SpaceAfter=No
-7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
+7	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 8	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Alaska	Alaska	PROPN	_	Gender=Masc|Number=Sing	8	obj	_	_
@@ -22585,7 +22585,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	ampullaires	ampullaire	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 4	vivent	vivre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
+5	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FQB_TREC-fr-1271
@@ -26572,7 +26572,7 @@
 4	Simpsons	Simpsons	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	3	punct	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
-7	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+7	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	diffusés	diffuser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 10	pour	pour	ADP	_	_	13	case	_	_
@@ -27524,7 +27524,7 @@
 3	'N	'N	PROPN	_	_	7	nsubj	_	_
 4	Sync	Sync	PROPN	_	_	3	flat:name	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 8	leur	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	nom	nom	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -27663,7 +27663,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	États-Unis	États-Unis	PROPN	_	_	6	nsubj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
-5	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	expl:subj	_	_
+5	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	expl:subj	_	_
 6	entrés	entrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	dans	dans	ADP	_	_	10	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -27732,7 +27732,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Français	français	NOUN	_	Gender=Masc	4	nsubj	_	_
 4	appellent	appeler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
+5	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl:subj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	English	English	PROPN	_	_	4	obj	_	_
@@ -29411,7 +29411,7 @@
 5	automobiles	automobile	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 6	Volvo	Volvo	PROPN	_	_	5	nmod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
-8	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
+8	-elles	lui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	expl:subj	_	_
 9	fabriquées	fabriquer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 10	?	?	PUNCT	_	_	9	punct	_	_
 
@@ -29765,7 +29765,7 @@
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	États-Unis	États-Unis	PROPN	_	_	7	nsubj	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
+6	-ils	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
 7	gagnée	gagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	après	après	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
