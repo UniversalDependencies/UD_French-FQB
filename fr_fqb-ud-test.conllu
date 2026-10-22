@@ -3637,8 +3637,8 @@
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	mon	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
-10	alors	alors	ADV	_	_	15	mark	_	_
-11	que	que	SCONJ	_	_	15	mark	_	_
+10	alors	alors	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
+11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
