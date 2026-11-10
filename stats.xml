@@ -33,7 +33,7 @@
     <tag name="X">244</tag><!-- the, of, 's, and, caliente, is, west, hazmat, in, to -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="41">
     <feat name="Definite" value="Def" upos="DET">2777</feat><!-- le, la, l', les -->
     <feat name="Definite" value="Ind" upos="DET">375</feat><!-- un, une, des, de, d', tout -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PRON">10</feat><!-- en, Il, auprès, autour, d', lord, près, suite, à -->
@@ -42,6 +42,7 @@
     <feat name="ExtPos" value="DET" upos="ADP">6</feat><!-- de -->
     <feat name="ExtPos" value="NOUN" upos="ADV">1</feat><!-- trop -->
     <feat name="ExtPos" value="PRON" upos="ADV,DET,NUM">19</feat><!-- le, 2000, moins, plus, quelqu', un -->
+    <feat name="ExtPos" value="SCONJ" upos="ADV">1</feat><!-- alors -->
     <feat name="Foreign" value="Yes" upos="NUM,X">244</feat><!-- the, of, 's, and, caliente, is, west, hazmat, in, to -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">3812</feat><!-- la, quelle, une, année, ville, -t-elle, -elle, première, compagnie, population -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">5926</feat><!-- le, quel, un, nom, -t-il, -il, premier, président, état, lieu -->
@@ -99,12 +100,12 @@
     <dep name="expl:pass">9</dep>
     <dep name="expl:pv">131</dep>
     <dep name="expl:subj">333</dep>
-    <dep name="fixed">45</dep>
+    <dep name="fixed">46</dep>
     <dep name="flat:foreign">131</dep>
     <dep name="flat:name">581</dep>
     <dep name="goeswith">1</dep>
     <dep name="iobj">9</dep>
-    <dep name="mark">302</dep>
+    <dep name="mark">301</dep>
     <dep name="nmod">1872</dep>
     <dep name="nsubj">2161</dep>
     <dep name="nsubj:caus">1</dep>
